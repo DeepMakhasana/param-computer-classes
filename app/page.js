@@ -1,10 +1,45 @@
-import Image from 'next/image'
-import styles from './page.module.css'
+// import Image from "next/image";
+import Slider from "@/components/slider/Slider";
+import styles from "./page.module.css";
+import WhyChooseUs from "@/components/whyChooseUs/WhyChooseUs";
+import Counting from "@/components/counting/Counting";
+import JewelleryCourse from "@/components/jewelleryCourse/JewelleryCourse";
+import ComputerCourse from "@/components/computerCourse/ComputerCourse";
+import Testimonials from "@/components/testimonials/Testimonials";
+import Gallery from "@/components/gallery/Gallery";
 
 export default function Home() {
   return (
-    <main className={styles.main}>
-      <div className={styles.description}>
+    <main>
+      {/* Slider section START */}
+      <Slider />
+      {/* Slider section END */}
+
+      {/* Why Choose Us section START */}
+      <WhyChooseUs />
+      {/* Why Choose Us section END */}
+
+      {/* Counting section START */}
+      <Counting />
+      {/* Counting section END */}
+
+      {/* Jewellery Course section START */}
+      <JewelleryCourse />
+      {/* Jewellery Course section END */}
+
+      {/* Computer Course section START */}
+      <ComputerCourse />
+      {/* Computer Course section END */}
+
+      {/* Testimonials section START */}
+      <Testimonials />
+      {/* Testimonials section END */}
+
+      {/* Gallery section START */}
+      <Gallery />
+      {/* Gallery section END */}
+
+      {/* <div className={styles.description}>
         <p>
           Get started by editing&nbsp;
           <code className={styles.code}>app/page.js</code>
@@ -89,7 +124,7 @@ export default function Home() {
             Instantly deploy your Next.js site to a shareable URL with Vercel.
           </p>
         </a>
-      </div>
+      </div> */}
     </main>
-  )
+  );
 }

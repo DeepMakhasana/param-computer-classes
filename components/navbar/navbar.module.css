@@ -1,0 +1,104 @@
+.navbarContainer {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #ffffff;
+    z-index: 99;
+    width: 100%;
+}
+
+.navbar {
+    max-width: 1480px;
+    margin: 0 auto;
+    padding: 0.2rem 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navList,
+.navbarClose {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 1.6rem;
+    transition: 0.2s ease-in-out;
+}
+
+.navbar ul li a {
+    letter-spacing: 1.6px;
+}
+
+.navbar ul li a:hover {
+    color: var(--primary-color);
+}
+
+.activeLink {
+    color: var(--primary-color);
+    font-weight: 700;
+}
+
+.enrollNowBtn {
+    background-color: var(--primary-color);
+    padding: 0.8rem 1.4rem;
+    border-radius: 4px;
+    font-size: 0.9rem;
+    color: #ffffff;
+    border: 1px solid var(--primary-color);
+}
+
+.enrollNowBtn:hover {
+    background-color: rgba(var(--bg-light-color));
+    color: var(--primary-color);
+    border: 1px solid var(--primary-color);
+}
+
+.toggleMenu {
+    display: none;
+}
+
+@media (max-width: 992px) {
+    .logo img {
+        width: 164px;
+        height: auto;
+    }
+
+    .navList {
+        /* display: none; */
+        width: 80%;
+        flex-direction: column;
+        position: absolute;
+        top: 65px;
+        right: 0;
+        justify-content: start;
+        align-items: start;
+        background-color: #ffffff;
+        z-index: 999;
+        height: calc(100vh - 65.84px);
+        padding: 1.8rem 0 1.8rem 2rem;
+        gap: 2rem;
+    }
+
+    .navbarClose {
+        width: 0;
+        flex-direction: column;
+        position: absolute;
+        top: 65.84px;
+        right: 0;
+        justify-content: start;
+        align-items: start;
+        background-color: #616161;
+        z-index: 999;
+        height: calc(100vh - 65.84px);
+        padding: 0;
+        gap: 2rem;
+        overflow: hidden;
+    }
+
+    .toggleMenu {
+        display: block;
+        cursor: pointer;
+    }
+}
