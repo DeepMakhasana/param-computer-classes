@@ -1,7 +1,19 @@
+"use client";
 import Link from 'next/link'
 import styles from './computerCourse.module.css'
+import { useEffect } from "react";
+
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const ComputerCourse = () => {
+    useEffect(() => {
+        AOS.init({
+            startEvent: "DOMContentLoaded",
+            initClassName: "aos-init",
+            animatedClassName: "aos-animate",
+        });
+    }, []);
     return (
         <section>
             <div className="heading">

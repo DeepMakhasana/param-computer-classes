@@ -1,5 +1,4 @@
 import JewelleryCourse from "@/components/jewelleryCourse/JewelleryCourse";
-import styles from "./courses.module.css";
 import ComputerCourse from "@/components/computerCourse/ComputerCourse";
 
 export const metadata = {

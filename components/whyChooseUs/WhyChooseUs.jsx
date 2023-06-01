@@ -1,8 +1,19 @@
+"use client";
 import styles from './whyChooseUs.module.css'
 import Image from 'next/image'
+import { useEffect } from "react";
 
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const WhyChooseUs = () => {
+    useEffect(() => {
+        AOS.init({
+            startEvent: "DOMContentLoaded",
+            initClassName: "aos-init",
+            animatedClassName: "aos-animate",
+        });
+    }, []);
     return (
         <section className="container">
             <div className="heading">
