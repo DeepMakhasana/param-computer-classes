@@ -14,6 +14,7 @@
   --bg-light-color: 13, 114, 132, 0.1;
   --secondary-text-color: #666666;
   --bg-secondary-light: #F8F8F8;
+  --swiper-theme-color: #0D7284 !important;
 
 
   /* --foreground-rgb: 0, 0, 0;
@@ -120,10 +121,6 @@ h6 {
   font-weight: 700;
 }
 
-li {
-  list-style: none;
-}
-
 .swiper {
   width: 100%;
   height: 80vh;
@@ -145,9 +142,10 @@ li {
 }
 
 .heading {
-  margin-top: 4rem;
-  margin-bottom: 2rem;
   text-align: center;
+  max-width: 1480px;
+  margin: 4rem auto 2rem auto;
+  padding: 0 1rem;
 }
 
 .heading h2 {
@@ -156,12 +154,30 @@ li {
   margin-block: 1rem;
 }
 
+/* .heading-style {
+  position: relative;
+}
+
+.heading-style::before {
+  position: absolute;
+  content: "";
+  width: 100px;
+  left: 46%;
+  top: -10px;
+  border-top: 4px solid var(--primary-color);
+  border-radius: 10px;
+} */
+
 .heading p {
   letter-spacing: 1.4px;
   line-height: 1.4;
   color: var(--secondary-text-color);
   width: 60%;
   margin: 0 auto;
+}
+
+.bgColor {
+  background-color: var(--bg-secondary-light);
 }
 
 /* @media (prefers-color-scheme: dark) {

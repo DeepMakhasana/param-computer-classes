@@ -16,17 +16,17 @@ const Testimonials = () => {
     return (
         <section className='container'>
             <div className="heading">
-                <h2>Testimonials</h2>
+                <h2 className="heading-style">Testimonials</h2>
                 <p>Our satisfied customer says</p>
             </div>
             <div className={styles.testimonialsContainer}>
                 <Swiper
                     spaceBetween={30}
                     centeredSlides={true}
-                    // autoplay={{
-                    //     delay: 2500,
-                    //     disableOnInteraction: false,
-                    // }}
+                    autoplay={{
+                        delay: 2500,
+                        disableOnInteraction: false,
+                    }}
                     pagination={{
                         clickable: true,
                     }}

@@ -1,16 +1,16 @@
-import React from 'react'
 import styles from './whyChooseUs.module.css'
 import Image from 'next/image'
+
 
 const WhyChooseUs = () => {
     return (
         <section className="container">
             <div className="heading">
-                <h2>Why Choose Us</h2>
+                <h2 className='heading-style'>Why Choose Us</h2>
                 <p>We offer a comprehensive curriculum, experienced instructors, state-of-the-art facilities, and a supportive learning environment.</p>
             </div>
             <div className={styles.boxContainer}>
-                <div className={`${styles.box} ${styles.flexColumnReverse}`}>
+                <div className={`${styles.box} ${styles.flexColumnReverse}`} data-aos="fade-right" data-aos-delay="50" data-aos-duration="1000">
                     <div className={styles.boxContent}>
                         <h3 className={styles.tar}>Relevant and Up-to-Date Curriculum</h3>
                         <p className={styles.tar}>
@@ -21,7 +21,7 @@ const WhyChooseUs = () => {
                         <Image src="/curriculum.svg" alt="curriculum" width={48} height={48} />
                     </div>
                 </div>
-                <div className={`${styles.box} ${styles.flexColumn}`}>
+                <div className={`${styles.box} ${styles.flexColumn}`} data-aos="fade-left" data-aos-delay="50" data-aos-duration="1000">
                     <div className={styles.boxIcon}>
                         <Image src="/practical.svg" alt="Facilities" width={48} height={48} />
                     </div>
@@ -33,7 +33,7 @@ const WhyChooseUs = () => {
                     </div>
 
                 </div>
-                <div className={`${styles.box} ${styles.flexColumnReverse}`}>
+                <div className={`${styles.box} ${styles.flexColumnReverse}`} data-aos="fade-right" data-aos-delay="50" data-aos-duration="1000">
                     <div className={styles.boxContent}>
                         <h3 className={styles.tar}>Expertise and Experience</h3>
                         <p className={styles.tar}>
@@ -44,7 +44,7 @@ const WhyChooseUs = () => {
                         <Image src="/expertise.svg" alt="expertise" width={48} height={48} />
                     </div>
                 </div>
-                <div className={`${styles.box} ${styles.flexColumn}`}>
+                <div className={`${styles.box} ${styles.flexColumn}`} data-aos="fade-left" data-aos-delay="50" data-aos-duration="1000">
                     <div className={styles.boxIcon}>
                         <Image src="/facilities.svg" alt="curriculum" width={48} height={48} />
                     </div>

@@ -18,14 +18,14 @@ const Gallery = () => {
         <section>
             <div className={styles.gallery}>
                 <div className="heading">
-                    <h2>Gallery</h2>
+                    <h2 className="heading-style">Gallery</h2>
                     <p>Our Computer Classes Images</p>
                 </div>
                 <Swiper
                     slidesPerView={1}
                     spaceBetween={30}
                     autoplay={{
-                        delay: 2500,
+                        delay: 1500,
                         disableOnInteraction: false,
                     }}
                     freeMode={true}
@@ -35,14 +35,14 @@ const Gallery = () => {
                     modules={[Autoplay, FreeMode, Pagination]}
                     className="mySwiper"
                 >
-                    <SwiperSlide><img src="/room.jpg" alt="room" /></SwiperSlide>
-                    <SwiperSlide><img src="/room.jpg" alt="room" /></SwiperSlide>
-                    <SwiperSlide><img src="/room.jpg" alt="room" /></SwiperSlide>
-                    <SwiperSlide><img src="/room.jpg" alt="room" /></SwiperSlide>
-                    <SwiperSlide><img src="/room.jpg" alt="room" /></SwiperSlide>
-                    <SwiperSlide><img src="/room.jpg" alt="room" /></SwiperSlide>
-                    <SwiperSlide><img src="/room.jpg" alt="room" /></SwiperSlide>
-                    <SwiperSlide><img src="/room.jpg" alt="room" /></SwiperSlide>
+                    <SwiperSlide><img src="/about.jpg" alt="room" /></SwiperSlide>
+                    <SwiperSlide><img src="/amethyst.jpg" alt="room" /></SwiperSlide>
+                    <SwiperSlide><img src="/ring-design.jpg" alt="room" /></SwiperSlide>
+                    <SwiperSlide><img src="/ccc.jpg" alt="room" /></SwiperSlide>
+                    <SwiperSlide><img src="/jewellery.jpg" alt="room" /></SwiperSlide>
+                    <SwiperSlide><img src="/JewelCAD.jpg" alt="room" /></SwiperSlide>
+                    <SwiperSlide><img src="/RhinoGold.jpg" alt="room" /></SwiperSlide>
+                    <SwiperSlide><img src="/tally.jpg" alt="room" /></SwiperSlide>
                 </Swiper>
             </div>
         </section>

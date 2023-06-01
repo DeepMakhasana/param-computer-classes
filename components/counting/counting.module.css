@@ -28,6 +28,9 @@
 .counter span {
     font-size: 2.6rem;
     color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .counter p {

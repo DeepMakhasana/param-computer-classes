@@ -22,8 +22,9 @@
         'ccc corelDraw corelDraw';
     gap: 1rem;
     place-items: center;
-    background-color: var(--bg-secondary-light);
-    padding-block: 2rem;
+    max-width: 1480px;
+    margin: 0 auto;
+    padding: 2rem 1rem;
 }
 
 .computerCourseContainer .img {
@@ -58,6 +59,52 @@
     width: 38vw;
 }
 
+.computerCourseContainer .courseInfo {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: 0.4s ease-in-out;
+    display: flex;
+    gap: 0.5rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.computerCourseContainer .course:hover .courseInfo {
+    opacity: 0.8;
+}
+
+.courseInfo h2 {
+    color: #ffffff;
+    font-size: 2rem;
+    letter-spacing: 1.6px;
+    line-height: 2;
+    display: none;
+}
+
+.courseInfo .navigateLink {
+    display: flex;
+}
+
+.courseInfo a {
+    border: 0;
+    padding: 8px 16px;
+    border-radius: 10px;
+    background-color: var(--primary-color);
+    color: #ffffff;
+    font-weight: 700;
+    letter-spacing: 1.4px;
+    min-width: 140px;
+    text-align: center;
+    border: 2px solid #ffffff;
+}
+
+.courseInfo a:hover {
+    background-color: transparent;
+}
+
 @media (min-width: 1480px) {
     .corelDraw img {
         width: 95%;
@@ -75,5 +122,52 @@
 
     .corelDraw img {
         width: 94vw;
+    }
+
+
+}
+
+@media (min-width:481px) and (max-width: 768px) {
+    .courseInfo a {
+        border: 0;
+        padding: 8px 14px;
+        border-radius: 10px;
+        background-color: var(--primary-color);
+        color: #ffffff;
+        font-weight: 400;
+        letter-spacing: 1.2px;
+        min-width: 120px;
+        text-align: center;
+        border: 2px solid #ffffff;
+    }
+}
+
+@media (min-width:769px) and (max-width: 1180px) {
+    .courseInfo a {
+        border: 0;
+        padding: 6px 10px;
+        border-radius: 10px;
+        background-color: var(--primary-color);
+        color: #ffffff;
+        font-weight: 400;
+        letter-spacing: 0px;
+        min-width: 104px;
+        text-align: center;
+        border: 2px solid #ffffff;
+    }
+}
+
+@media (max-width: 480px) {
+    .courseInfo a {
+        border: 0;
+        padding: 6px 12px;
+        border-radius: 10px;
+        background-color: var(--primary-color);
+        color: #ffffff;
+        font-weight: 400;
+        letter-spacing: 1.2px;
+        min-width: 120px;
+        text-align: center;
+        border: 2px solid #ffffff;
     }
 }
