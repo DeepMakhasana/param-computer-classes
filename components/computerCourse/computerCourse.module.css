@@ -144,30 +144,19 @@
 
 @media (min-width:769px) and (max-width: 1180px) {
     .courseInfo a {
-        border: 0;
         padding: 6px 10px;
         border-radius: 10px;
-        background-color: var(--primary-color);
-        color: #ffffff;
         font-weight: 400;
         letter-spacing: 0px;
         min-width: 104px;
-        text-align: center;
-        border: 2px solid #ffffff;
     }
 }
 
 @media (max-width: 480px) {
     .courseInfo a {
-        border: 0;
         padding: 6px 12px;
-        border-radius: 10px;
-        background-color: var(--primary-color);
-        color: #ffffff;
         font-weight: 400;
         letter-spacing: 1.2px;
         min-width: 120px;
-        text-align: center;
-        border: 2px solid #ffffff;
     }
 }
