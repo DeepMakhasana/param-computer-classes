@@ -35,7 +35,7 @@ const SellService = async () => {
             </div>
             <div className={styles.info}>
               <h2>New and second hand Computer Sell & Service</h2>
-              <p>We remain on top of trends by regularly changing our product range to include the latest advances in technology. Our computers come with the most recent parts that provide the best performance and efficiency, from powerful CPUs and fast RAM to modern graphics cards and SSD storage options. In order to improve your current systems and meet changing computing demands, we also provide upgrade alternatives..</p>
+              <p>We remain on top of trends by regularly changing our product range to include the latest advances in technology. Our computers come with the most recent parts that provide the best performance and efficiency, from powerful CPUs and fast RAM to modern graphics cards and SSD storage options. In order to improve your current systems and meet changing computing demands, we also provide upgrade alternatives.</p>
               <ul>
                 <li>Extensive Product Selection</li>
                 <li>Latest Technology and Upgrades</li>
