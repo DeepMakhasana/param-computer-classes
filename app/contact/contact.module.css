@@ -12,6 +12,10 @@
     padding: 0.2rem 0;
 }
 
+.contactForm label {
+    letter-spacing: 1.2px;
+}
+
 .contactForm input[type=text],
 .contactForm input[type=number],
 .contactForm textarea,
@@ -23,6 +27,7 @@
     border: 1px solid #ccc;
     border-radius: 4px;
     box-sizing: border-box;
+    letter-spacing: 1.2px;
 }
 
 .contactForm select option {
@@ -38,6 +43,8 @@
     border: none;
     border-radius: 4px;
     cursor: pointer;
+    letter-spacing: 1.2px;
+    transition: 0.4s ease-in-out;
 }
 
 .contactForm input[type=submit]:hover {

@@ -1,6 +1,7 @@
 import styles from './contact.module.css'
 
-const Contact = () => {
+const Contact = async () => {
+    await new Promise(resolve => setTimeout(resolve, 1000));
     return (
         <main>
             <div className="heading">
@@ -14,8 +15,8 @@ const Contact = () => {
                         <input type="text" id="name" name="name" placeholder="Your name" />
                     </div>
                     <div className={styles.inputField}>
-                        <label htmlFor="number">Mobile Number</label>
-                        <input type="number" id="number" name="number" placeholder="Number" />
+                        <label htmlFor="number">WhatsApp Number</label>
+                        <input type="number" id="number" name="number" placeholder="WhatsApp Number" />
                     </div>
                     <div className={styles.inputField}>
                         <label htmlFor="course">Course</label>
@@ -35,7 +36,7 @@ const Contact = () => {
                         <textarea id="message" name="message" placeholder="Write Message.." style={{ height: "200px" }}></textarea>
                     </div>
 
-                    <input type="submit" defaultValue="Submit and Connect on WhatsApp" />
+                    <input type="submit" value="Submit and Connect on WhatsApp" />
                 </form>
             </div>
         </main>

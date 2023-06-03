@@ -154,6 +154,12 @@ h6 {
   margin-block: 1rem;
 }
 
+.heading h1 {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-block: 1rem;
+}
+
 /* .heading-style {
   position: relative;
 }

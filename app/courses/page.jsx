@@ -6,7 +6,8 @@ export const metadata = {
     description: "Param Computer Classes provides several courses.",
 };
 
-const Courses = () => {
+const Courses = async () => {
+    await new Promise(resolve => setTimeout(resolve, 1000));
     return (
         <main>
             <JewelleryCourse />

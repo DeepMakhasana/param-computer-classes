@@ -5,7 +5,8 @@ export const metadata = {
   description: "Param Computer Classes provides several courses.",
 };
 
-function About() {
+async function About() {
+  await new Promise(resolve => setTimeout(resolve, 1000));
   return (
     <main>
       <div className="heading">

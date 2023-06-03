@@ -11,7 +11,7 @@
 .navbar {
     max-width: 1480px;
     margin: 0 auto;
-    padding: 0.2rem 1rem;
+    padding: 0.2rem 1rem 0.2rem 0.4rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -31,18 +31,22 @@
     list-style: none;
 }
 
-.navbar ul li a {
+.navbar .noActiveLink {
     letter-spacing: 1.6px;
+    transition: 0.2s ease-in;
 }
 
-.navbar ul li a:hover {
+.navbar .noActiveLink:hover {
     color: var(--primary-color);
 }
 
 .activeLink {
     color: var(--primary-color);
     font-weight: 700;
+    letter-spacing: 1.6px;
 }
+
+
 
 .enrollNowBtn {
     background-color: var(--primary-color);

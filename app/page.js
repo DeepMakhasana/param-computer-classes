@@ -8,7 +8,8 @@ import ComputerCourse from "@/components/computerCourse/ComputerCourse";
 import Testimonials from "@/components/testimonials/Testimonials";
 import Gallery from "@/components/gallery/Gallery";
 
-export default function Home() {
+export default async function Home() {
+  await new Promise((resolve) => setTimeout(resolve, 1000));
   return (
     <main>
       {/* Slider section START */}
