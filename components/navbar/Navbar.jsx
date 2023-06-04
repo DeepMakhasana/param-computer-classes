@@ -45,11 +45,11 @@ const Navbar = () => {
                 <div className={styles.navbar}>
                     <Link onClick={() => closeNavbar("/")} href="/">
                         <div className={styles.logo}>
-                            <Image src="/Param-Logo.svg" alt="Param Computer Classes" width={209} height={71} />
+                            <img src="/Param-Logo.svg" alt="Param Computer Classes logo" />
                         </div>
                     </Link>
                     <div className={styles.toggleMenu} ref={toggleRef}>
-                        {toggle ? <Image src="/close-solid.svg" alt="=" width={32} height={32} /> : <Image src="/bars-solid.svg" alt="=" width={32} height={32} />}
+                        {toggle ? <img src="/close-solid.svg" alt="=" /> : <img src="/bars-solid.svg" alt="*" />}
                     </div>
                     <ul className={toggle ? styles.navList : styles.navbarClose} ref={ref}>
                         <li onClick={() => closeNavbar("/")}><Link href="/" className={currentURL == "/" ? styles.activeLink : styles.noActiveLink}>Home</Link></li>
