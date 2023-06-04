@@ -49,7 +49,7 @@ const Navbar = () => {
                         </div>
                     </Link>
                     <div className={styles.toggleMenu} ref={toggleRef}>
-                        {toggle ? <Image src="./close-solid.svg" alt="=" width={32} height={32} /> : <Image src="./bars-solid.svg" alt="=" width={32} height={32} />}
+                        {toggle ? <Image src="/close-solid.svg" alt="=" width={32} height={32} /> : <Image src="/bars-solid.svg" alt="=" width={32} height={32} />}
                     </div>
                     <ul className={toggle ? styles.navList : styles.navbarClose} ref={ref}>
                         <li onClick={() => closeNavbar("/")}><Link href="/" className={currentURL == "/" ? styles.activeLink : styles.noActiveLink}>Home</Link></li>

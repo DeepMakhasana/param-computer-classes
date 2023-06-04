@@ -30,8 +30,8 @@ const JewelleryCourse = () => {
                             <h2>JewelCAD Course</h2>
                         </div>
                         <div className={styles.courseLink}>
-                            <Link href="/">Read More</Link>
-                            <Link href="/">Enroll Now</Link>
+                            <Link href="/courses/jewelcad">Read More</Link>
+                            <Link href="/contact">Enroll Now</Link>
                         </div>
                     </div>
                     <div className={styles.course} data-aos="fade-up" data-aos-delay="50" data-aos-duration="1000">
@@ -42,8 +42,8 @@ const JewelleryCourse = () => {
                             <h2>RhinoGold Course</h2>
                         </div>
                         <div className={styles.courseLink}>
-                            <Link href="/">Read More</Link>
-                            <Link href="/">Enroll Now</Link>
+                            <Link href="/courses/rhinogold">Read More</Link>
+                            <Link href="/contact">Enroll Now</Link>
                         </div>
                     </div>
                 </div>

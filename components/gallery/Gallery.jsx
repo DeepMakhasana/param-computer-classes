@@ -25,7 +25,7 @@ const Gallery = () => {
                     slidesPerView={1}
                     spaceBetween={30}
                     autoplay={{
-                        delay: 1500,
+                        delay: 3500,
                         disableOnInteraction: false,
                     }}
                     freeMode={true}
@@ -35,14 +35,13 @@ const Gallery = () => {
                     modules={[Autoplay, FreeMode, Pagination]}
                     className="mySwiper"
                 >
-                    <SwiperSlide><img src="/about.jpg" alt="room" /></SwiperSlide>
-                    <SwiperSlide><img src="/amethyst.jpg" alt="room" /></SwiperSlide>
-                    <SwiperSlide><img src="/ring-design.jpg" alt="room" /></SwiperSlide>
-                    <SwiperSlide><img src="/ccc.jpg" alt="room" /></SwiperSlide>
-                    <SwiperSlide><img src="/jewellery.jpg" alt="room" /></SwiperSlide>
+                    <SwiperSlide><img src="/param-bulding.jpg" alt="param computer classes" /></SwiperSlide>
+                    <SwiperSlide><img src="/classes.jpeg" alt="param computer classes" /></SwiperSlide>
+                    <SwiperSlide><img src="/front-area.jpeg" alt="param computer classes" /></SwiperSlide>
+                    {/* <SwiperSlide><img src="/jewellery.jpg" alt="room" /></SwiperSlide>
                     <SwiperSlide><img src="/JewelCAD.jpg" alt="room" /></SwiperSlide>
                     <SwiperSlide><img src="/RhinoGold.jpg" alt="room" /></SwiperSlide>
-                    <SwiperSlide><img src="/tally.jpg" alt="room" /></SwiperSlide>
+                    <SwiperSlide><img src="/tally.jpg" alt="room" /></SwiperSlide> */}
                 </Swiper>
             </div>
         </section>

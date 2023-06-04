@@ -29,8 +29,8 @@ const ComputerCourse = () => {
                         </div>
                         <div className={styles.courseInfo}>
                             <h2>Tally Course</h2>
-                            <Link href="/">Read More</Link>
-                            <Link href="/">Enroll Now</Link>
+                            <Link href="/courses/ccc">Read More</Link>
+                            <Link href="/contact">Enroll Now</Link>
                         </div>
                     </div>
                     <div className={`${styles.course} ${styles.tally}`} data-aos="fade-up" data-aos-delay="50" data-aos-duration="1000">
@@ -39,8 +39,8 @@ const ComputerCourse = () => {
                         </div>
                         <div className={styles.courseInfo}>
                             <h2>Tally Course</h2>
-                            <Link href="/">Read more</Link>
-                            <Link href="/">Enroll now</Link>
+                            <Link href="/courses/tally">Read more</Link>
+                            <Link href="/contact">Enroll now</Link>
                         </div>
                     </div>
                     <div className={`${styles.course} ${styles.miracle}`} data-aos="fade-up" data-aos-delay="50" data-aos-duration="1000">
@@ -49,8 +49,8 @@ const ComputerCourse = () => {
                         </div>
                         <div className={styles.courseInfo}>
                             <h2>Miracle Course</h2>
-                            <Link href="/">Read more</Link>
-                            <Link href="/">Enroll now</Link>
+                            <Link href="/courses/miracle">Read more</Link>
+                            <Link href="/contact">Enroll now</Link>
                         </div>
                     </div>
                     <div className={`${styles.course} ${styles.corelDraw}`} data-aos="fade-up" data-aos-delay="50" data-aos-duration="1000">
@@ -59,8 +59,8 @@ const ComputerCourse = () => {
                         </div>
                         <div className={styles.courseInfo}>
                             <h2>CorelDRAW Course</h2>
-                            <Link href="/">Read more</Link>
-                            <Link href="/">Enroll now</Link>
+                            <Link href="/courses/coreldraw">Read more</Link>
+                            <Link href="/contact">Enroll now</Link>
                         </div>
                     </div>
                 </div>
