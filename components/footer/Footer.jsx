@@ -3,28 +3,30 @@ import styles from './footer.module.css'
 import Image from 'next/image'
 
 const Footer = () => {
+    const date = new Date();
+    let year = date.getFullYear();
     return (
-        <div className={styles.footer}>
+        <footer className={styles.footer}>
             <div className={styles.mainFooterContainer}>
                 <div className={styles.CoursesLink}>
                     <h3>Courses</h3>
                     <ul>
-                        <li><Link href="/">JewelCAD</Link></li>
-                        <li><Link href="/">RhinoGold</Link></li>
-                        <li><Link href="/">CCC</Link></li>
-                        <li><Link href="/">Tally Prime</Link></li>
-                        <li><Link href="/">Miracle</Link></li>
-                        <li><Link href="/">CorelDRAW</Link></li>
+                        <li><Link href="/courses/jewelcad">JewelCAD</Link></li>
+                        <li><Link href="/courses/rhinogold">RhinoGold</Link></li>
+                        <li><Link href="/courses/ccc">CCC</Link></li>
+                        <li><Link href="/courses/tally">Tally Prime</Link></li>
+                        <li><Link href="/courses/miracle">Miracle</Link></li>
+                        <li><Link href="/courses/coreldraw">CorelDRAW</Link></li>
                     </ul>
                 </div>
                 <div className={styles.navigational}>
                     <h3>Navigational</h3>
                     <ul>
                         <li><Link href="/">Home</Link></li>
-                        <li><Link href="/">About</Link></li>
-                        <li><Link href="/">Courses</Link></li>
-                        <li><Link href="/">Sell & Service</Link></li>
-                        <li><Link href="/">Contact</Link></li>
+                        <li><Link href="/about">About</Link></li>
+                        <li><Link href="/courses">Courses</Link></li>
+                        <li><Link href="/sell-service">Sell & Service</Link></li>
+                        <li><Link href="/contact">Contact</Link></li>
                     </ul>
                 </div>
                 <div className={styles.contactInformation}>
@@ -40,9 +42,9 @@ const Footer = () => {
                 </div>
             </div>
             <div className={styles.lastFooter}>
-                <p>© Param Computer Classes, All Right Reserved. Designed By <Link href="https://deepmakhasana.netlify.app/">Deep Makhasana</Link></p>
+                <p>© {year} Param Computer Classes, All Right Reserved. Designed By <Link href="https://deepmakhasana.netlify.app/">Deep Makhasana</Link></p>
             </div>
-        </div>
+        </footer>
     )
 }
 
