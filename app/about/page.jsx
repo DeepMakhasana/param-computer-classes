@@ -2,7 +2,8 @@ import styles from "./about.module.css";
 
 export const metadata = {
   title: "Param Computer Classes | About Us",
-  description: "Param Computer Classes provides several courses.",
+  description: "Param computer classes began it's journey in 2010 with a vision to train job-focused youth in India and make them employable at affordable fees. We provide Jewellery Designing and Computer Courses with experienced instructors.",
+  keywords: "param computer classes, computer classes in rajkot, jewellery designing course in rajkot, jewellery designing",
 };
 
 async function About() {

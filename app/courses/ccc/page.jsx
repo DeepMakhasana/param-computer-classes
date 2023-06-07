@@ -1,5 +1,11 @@
 import CoursePage from '@/components/coursePage/CoursePage';
 
+export const metadata = {
+    title: "Career boosting CCC Course in Rajkot | Param computer classes",
+    description: "Looking to enhance your career prospects? Enrol in our complete CCC course to gain in-depth knowledge of computer concepts, and digital skills.",
+    keywords: "CCC, CCC course in rajkot, CCC course near me, computer classes, param computer classes",
+};
+
 const ccc = () => {
     return (
         <CoursePage

@@ -45,7 +45,7 @@ export default function Slider() {
                     <div className={styles.sliderContent}>
                         <div className={styles.mainContent}>
                             <h2>We are a trusted provider of CCC</h2>
-                            <p>CCC (Course on Computer Concepts) is a comprehensive course that introduces individuals to the fundamental concepts and practical applications of computer technology. Designed for beginners, the CCC course covers a wide range of topics related to computers, software, and the Internet.</p>
+                            <p><b>CCC (Course on Computer Concepts)</b> is a comprehensive course that introduces individuals to the fundamental concepts and practical applications of computer technology. Designed for beginners, the CCC course covers a wide range of topics related to computers, software, and the Internet.</p>
                             <Link href={"/courses"}>Read more</Link>
                             <Link href={"/contact"}>Enroll now</Link>
                         </div>
@@ -56,7 +56,7 @@ export default function Slider() {
                     <div className={styles.sliderContent}>
                         <div className={styles.mainContent}>
                             <h2>Professional Accounting Software courses</h2>
-                            <p>Tally Prime and Miracle is a comprehensive course designed to provide individuals and businesses with the necessary skills to effectively manage their financial and accounting processes. This course focuses on teaching participants how to use Tally Prime and Miracle, which is a popular accounting software used globally.</p>
+                            <p><b>Tally Prime</b> and <b>Miracle</b> is a comprehensive course designed to provide individuals and businesses with the necessary skills to effectively manage their financial and accounting processes. This course focuses on teaching participants how to use Tally Prime and Miracle, which is a popular accounting software used globally.</p>
                             <Link href={"/courses"}>Read more</Link>
                             <Link href={"/contact"}>Enroll now</Link>
                         </div>
@@ -78,7 +78,7 @@ export default function Slider() {
                     <div className={styles.sliderContent}>
                         <div className={styles.mainContent}>
                             <h2>Paid Software solution</h2>
-                            <p>Windows (e.g., Microsoft Windows all version), Office Suites (e.g., Microsoft Office), Antivirus and Malware Protection (e.g., Norton, McAfee), Graphic Design Tools (e.g., Adobe Photoshop, CorelDRAW), Accounting and Finance Software (e.g., Tally prime, Miracle) also provide Jewelley designing Software (e.g., JewelCAD, RhinoGold) and 3D Modeling Software (e.g., Autocad, Autodesk).</p>
+                            <p><b>Windows</b> (e.g., Microsoft Windows all version), <b>Office</b> Suites (e.g., Microsoft Office), <b>Antivirus</b> and Malware Protection (e.g., Norton, McAfee), <b>Graphic Design Tools</b> (e.g., Adobe Photoshop, CorelDRAW), <b>Accounting and Finance Software</b> (e.g., Tally prime, Miracle) also provide <b>Jewelley designing Software</b> (e.g., JewelCAD, RhinoGold) and <b>3D Modeling Software</b> (e.g., Autocad, Autodesk).</p>
                             <Link href={"/sell-service"}>Read more</Link>
                             <Link href={"/contact"}>Enroll now</Link>
                         </div>

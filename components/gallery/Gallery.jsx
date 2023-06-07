@@ -38,10 +38,10 @@ const Gallery = () => {
                     <SwiperSlide><img src="/param-bulding.jpg" alt="param computer classes" /></SwiperSlide>
                     <SwiperSlide><img src="/classes.jpeg" alt="param computer classes" /></SwiperSlide>
                     <SwiperSlide><img src="/front-area.jpeg" alt="param computer classes" /></SwiperSlide>
-                    {/* <SwiperSlide><img src="/jewellery.jpg" alt="room" /></SwiperSlide>
-                    <SwiperSlide><img src="/JewelCAD.jpg" alt="room" /></SwiperSlide>
-                    <SwiperSlide><img src="/RhinoGold.jpg" alt="room" /></SwiperSlide>
-                    <SwiperSlide><img src="/tally.jpg" alt="room" /></SwiperSlide> */}
+                    <SwiperSlide><img src="/j-1.jpg" alt="jewellery design" /></SwiperSlide>
+                    <SwiperSlide><img src="/j-2.jpg" alt="jewellery design" /></SwiperSlide>
+                    <SwiperSlide><img src="/j-3.jpg" alt="jewellery design" /></SwiperSlide>
+                    <SwiperSlide><img src="/j-4.jpg" alt="jewellery design" /></SwiperSlide>
                 </Swiper>
             </div>
         </section>

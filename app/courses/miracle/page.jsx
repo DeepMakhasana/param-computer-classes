@@ -1,5 +1,11 @@
 import CoursePage from '@/components/coursePage/CoursePage';
 
+export const metadata = {
+    title: "Miracle accounting software Course in Rajkot | Param computer classes",
+    description: "Miracle Accounting Software is a modern platform that updates the way businesses handle their financial operations. Whether you are a professional accountant, small business owner, or an aspiring finance professional, this course is designed to meet your needs.",
+    keywords: "Miracle, Miracle Accounting course in rajkot, Miracle Accounting course near me, Accounting classes, param computer classes",
+};
+
 const miracle = () => {
     return (
         <CoursePage

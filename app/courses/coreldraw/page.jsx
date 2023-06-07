@@ -1,5 +1,12 @@
 import CoursePage from '@/components/coursePage/CoursePage';
 
+export const metadata = {
+    title: "CorelDRAW Course in Rajkot | Param computer classes",
+    description: "In our CorelDRAW software course, you'll gain a deep understanding of this powerful vector-based design program. Our expert instructors will guide you through the fundamentals of the software, providing step-by-step instructions and hands-on exercises. ",
+    keywords: "coreldraw, coreldraw course in rajkot, coreldraw course near me, coreldraw classes, param computer classes",
+};
+
+
 const corelDraw = () => {
     return (
         <CoursePage

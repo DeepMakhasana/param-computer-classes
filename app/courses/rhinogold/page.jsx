@@ -1,5 +1,11 @@
 import CoursePage from '@/components/coursePage/CoursePage';
 
+export const metadata = {
+    title: "Master the Jewellery Design with RhinoGold in Rajkot | Param CAD Center",
+    description: "Using RhinoGold, our knowledgeable educators will walk you through the full jewellery design process. From sketching and concept development to 3D modelling and rendering.",
+    keywords: "rhinogold, rhinogold course, rhinogold course in rajkot, jewellery designing course, rhinogold software course",
+};
+
 const rhinoGold = () => {
     return (
         <CoursePage

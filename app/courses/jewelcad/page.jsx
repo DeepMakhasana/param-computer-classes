@@ -1,5 +1,11 @@
 import CoursePage from '@/components/coursePage/CoursePage';
 
+export const metadata = {
+    title: "Jewellery designing course using JewelCAD in Rajkot | Param CAD Center",
+    description: "In our JewelCAD course, expert instructors will guide you through the fundamentals of JewelCAD, helping you understand the features and functionalities of the software through practical exercises and hands-on training.",
+    keywords: "jewelcad, jewelcad course,  jeweller designing course in Rajkot, jewelcad course near me, Jewellery designing course, jewellery cad center near me",
+};
+
 const JewelCad = () => {
     return (
         <CoursePage
