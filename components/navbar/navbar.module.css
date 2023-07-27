@@ -48,6 +48,7 @@
     width: 16px;
     cursor: pointer;
     transition: 0.2s ease-in-out;
+    margin-top: 4px;
 }
 
 .upDownIcon {
