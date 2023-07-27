@@ -17,7 +17,7 @@ const ContactFrom = () => {
 
         const form = document.forms['formData'];
 
-        await fetch("https://script.google.com/macros/s/AKfycbwEIxiTAe_u8xYNcxyhx6FVS30DyRlCz43OL_HGVEYqrNnZWjYFJXvgH8yErLEqoFX0vQ/exec",
+        await fetch("https://script.google.com/macros/s/AKfycbwg3M-3615ePTWvq1kugi9K7nnbXS-zqXsZoGyaAw9FTD0NrNZi7URInNHJyUWZWug/exec",
             {
                 method: "POST",
                 body: new FormData(form),
@@ -75,9 +75,10 @@ const ContactFrom = () => {
                                 <label htmlFor="course">Course</label>
                                 <select id="course" name="course" required>
                                     <option value="">Select Course</option>
-                                    <option value="JewelCAD">JewelCAD</option>
-                                    <option value="RhinoGold">RhinoGold</option>
+                                    <option value="JewelCAD">JewelCAD 5.1</option>
+                                    <option value="RhinoGold">Rhinoceros 7</option>
                                     <option value="ArtCAM">ArtCAM</option>
+                                    <option value="KeyShot">KeyShot</option>
                                     <option value="CCC">CCC</option>
                                     <option value="Tally prime">Tally Prime</option>
                                     <option value="Miracle">Miracle</option>

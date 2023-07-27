@@ -1,22 +1,10 @@
 "use client";
-// import React, { useState, useEffect } from 'react';
 import styles from './counting.module.css'
 import { useSpring, animated } from '@react-spring/web'
 
 const Counting = () => {
-
-    // const [scrollPosition, setScrollPosition] = useState(0);
-    // const handleScroll = () => {
-    //     const position = window.pageYOffset;
-    //     setScrollPosition(position);
-    // };
-
-    // useEffect(() => {
-    //     window.addEventListener('mousemove', handleScroll, { passive: true });
-    // }, []);
-
-    // console.log(scrollPosition);
-
+    const currentYear = new Date().getFullYear();
+    const yearExperience = currentYear - 2010;
 
     const CounterNumber = ({ n }) => {
         const { number } = useSpring({
@@ -34,7 +22,7 @@ const Counting = () => {
     }
     return (
         <section className={styles.countingContainer}>
-            <p className={styles.topTitle}>MORE THAN 8,000 STUDENTS LEARN FROM OUS</p>
+            <p className={styles.topTitle}>MORE THAN 8,000 STUDENTS LEARN FROM US</p>
             <div className={styles.countSection}>
                 <div className={styles.counter}>
                     {/* <span>8,000+</span> */}
@@ -43,11 +31,10 @@ const Counting = () => {
                 </div>
                 <div className={styles.counter}>
                     <span><CounterNumber n={100} />%</span>
-                    <p>Project Base Learning</p>
+                    <p>Practical Support while Job</p>
                 </div>
-                {/* TODO create dynamic */}
                 <div className={styles.counter}>
-                    <span><CounterNumber n={13} />+</span>
+                    <span><CounterNumber n={yearExperience} />+</span>
                     <p>Years Experience</p>
                 </div>
                 <div className={styles.counter}>

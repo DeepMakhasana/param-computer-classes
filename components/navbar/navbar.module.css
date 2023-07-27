@@ -36,6 +36,79 @@
     list-style: none;
 }
 
+.navbar .upDown {
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem; */
+    transition: 0.2s ease-in-out;
+}
+
+.navbar .upDown img {
+    width: 16px;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+}
+
+.upDownIcon {
+    display: flex;
+    /* justify-content: center;*/
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.dropdownLink {
+    padding: 1rem 0;
+    transition: 0.2s ease-in-out;
+}
+
+.dropdownClose {
+    position: absolute;
+    top: 65px;
+    display: none;
+    background-color: #ffffff;
+    padding: 1rem 1rem 0.5rem 1rem;
+    transition: 0.2s ease-in-out;
+}
+
+.dropdownClose li,
+.dropdown li {
+    padding: 0.5rem;
+
+}
+
+.dropdownClose li a,
+.dropdown li a {
+    letter-spacing: 1.2px;
+    line-height: 1.5;
+    transition: 0.2s ease-in-out;
+}
+
+.dropdownClose li a:hover {
+    color: var(--primary-color);
+}
+
+/* @media (min-width: 993px) { */
+
+.upDown:hover .dropdownClose {
+    display: block;
+    transition: 0.5s ease-in;
+}
+
+/* } */
+
+.courseTitleLink {
+    letter-spacing: 1.2px;
+    line-height: 1.5;
+    font-weight: 600;
+    border-bottom: 1px solid var(--secondary-text-color);
+}
+
+.courseSubTitleLink a {
+    padding-left: 1rem;
+    /* color: var(--secondary-text-color); */
+}
+
 .navbar .noActiveLink {
     letter-spacing: 1.6px;
     transition: 0.2s ease-in;
@@ -117,5 +190,38 @@
     .toggleMenu {
         display: block;
         cursor: pointer;
+    }
+
+    .dropdownLink {
+        padding: 0;
+    }
+
+
+    .dropdownClose {
+        width: 100%;
+        position: relative;
+        top: 0px;
+        right: 0;
+        display: none;
+        background-color: #ffffff;
+        padding: 1rem 1rem 0.5rem 1rem;
+        transition: 0.2s ease-in-out;
+    }
+
+    .dropdown {
+        width: 100%;
+        position: relative;
+        top: 0px;
+        right: 0;
+        display: block;
+        background-color: #ffffff;
+        padding: 1rem 1rem 0.5rem 1rem;
+        transition: 0.2s ease-in-out;
+    }
+
+    .upDown {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
     }
 }

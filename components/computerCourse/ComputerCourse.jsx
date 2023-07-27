@@ -15,7 +15,7 @@ const ComputerCourse = () => {
         });
     }, []);
     return (
-        <section>
+        <section id='computerCourse'>
             <div className="heading">
                 <h2 className='heading-style'>Computer Courses</h2>
                 <p>We offer a Computer Courses with experienced instructors, and a supportive learning environment.</p>
@@ -25,7 +25,7 @@ const ComputerCourse = () => {
                 <div className={styles.computerCourseContainer}>
                     <div className={`${styles.course} ${styles.ccc}`} data-aos="fade-up" data-aos-delay="50" data-aos-duration="1000">
                         <div className={styles.img}>
-                            <img src="./cccCourse.jpg" alt="JewelCAD course" />
+                            <img src="./cccCourse.jpg" alt="ccc course" />
                         </div>
                         <div className={styles.courseInfo}>
                             <h2>Tally Course</h2>
@@ -35,7 +35,7 @@ const ComputerCourse = () => {
                     </div>
                     <div className={`${styles.course} ${styles.tally}`} data-aos="fade-up" data-aos-delay="50" data-aos-duration="1000">
                         <div className={styles.img}>
-                            <img src="./tallyCourse.jpg" alt="RhinoGold course" />
+                            <img src="./tallyCourse.jpg" alt="tally course" />
                         </div>
                         <div className={styles.courseInfo}>
                             <h2>Tally Course</h2>
@@ -45,7 +45,7 @@ const ComputerCourse = () => {
                     </div>
                     <div className={`${styles.course} ${styles.miracle}`} data-aos="fade-up" data-aos-delay="50" data-aos-duration="1000">
                         <div className={styles.img}>
-                            <img src="./miracleCourse.jpg" alt="RhinoGold course" />
+                            <img src="./miracleCourse.jpg" alt="miracle course" />
                         </div>
                         <div className={styles.courseInfo}>
                             <h2>Miracle Course</h2>
@@ -55,7 +55,7 @@ const ComputerCourse = () => {
                     </div>
                     <div className={`${styles.course} ${styles.corelDraw}`} data-aos="fade-up" data-aos-delay="50" data-aos-duration="1000">
                         <div className={styles.img}>
-                            <img src="./corelDRAWCourse.jpg" alt="RhinoGold course" />
+                            <img src="./corelDRAWCourse.jpg" alt="corelDraw course" />
                         </div>
                         <div className={styles.courseInfo}>
                             <h2>CorelDRAW Course</h2>

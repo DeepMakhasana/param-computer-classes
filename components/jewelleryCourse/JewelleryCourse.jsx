@@ -8,11 +8,7 @@ import "aos/dist/aos.css";
 
 const JewelleryCourse = () => {
     useEffect(() => {
-        AOS.init({
-            startEvent: "DOMContentLoaded",
-            initClassName: "aos-init",
-            animatedClassName: "aos-animate",
-        });
+        AOS.init();
     }, []);
     return (
         <section>
@@ -22,27 +18,27 @@ const JewelleryCourse = () => {
             </div>
             <div className="bgColor">
                 <div className={styles.jewelCourseContainer}>
-                    <div className={styles.course} data-aos="fade-up" data-aos-delay="50" data-aos-duration="1000">
+                    <div className={styles.course} data-aos="fade-up">
                         <div className={styles.img}>
                             <img src="./JewelCAD.jpg" alt="JewelCAD course" />
                         </div>
                         <div className={styles.courseName}>
-                            <h2>JewelCAD Course</h2>
+                            <h2>JewelCAD 5.1 Course</h2>
                         </div>
                         <div className={styles.courseLink}>
                             <Link href="/courses/jewelcad">Read More</Link>
                             <Link href="/contact">Enroll Now</Link>
                         </div>
                     </div>
-                    <div className={styles.course} data-aos="fade-up" data-aos-delay="50" data-aos-duration="1000">
+                    <div className={styles.course} data-aos="fade-up">
                         <div className={styles.img}>
                             <img src="./RhinoGold.jpg" alt="RhinoGold course" />
                         </div>
                         <div className={styles.courseName}>
-                            <h2>RhinoGold Course</h2>
+                            <h2>Rhinoceros 7 Course</h2>
                         </div>
                         <div className={styles.courseLink}>
-                            <Link href="/courses/rhinogold">Read More</Link>
+                            <Link href="/courses/rhinoceros">Read More</Link>
                             <Link href="/contact">Enroll Now</Link>
                         </div>
                     </div>

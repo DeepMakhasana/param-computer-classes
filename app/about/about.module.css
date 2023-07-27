@@ -8,6 +8,31 @@
     padding: 2rem 1rem;
 }
 
+.points {
+    width: 80%;
+    max-width: 1480px;
+    margin: 0 auto;
+    padding: 2rem 1rem;
+}
+
+.faculty {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2rem;
+    width: 90%;
+    max-width: 1480px;
+    margin: 0 auto;
+    padding: 2rem 1rem;
+
+}
+
+.faculty div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 .aboutImage img {
     max-width: 100%;
     height: 800px;
@@ -30,6 +55,7 @@
 }
 
 .aboutInfo p {
+    line-height: 1.4;
     letter-spacing: 1.2px;
     padding: 0.5rem 0;
     text-align: justify;
@@ -48,9 +74,46 @@
     text-align: justify;
     padding: 0.2rem 0;
     color: var(--secondary-text-color);
-
 }
 
+.points ul {
+    margin-top: 1rem;
+}
+
+.points ul li {
+    line-height: 1.4;
+    letter-spacing: 1.1px;
+    text-align: justify;
+    padding: 0.4rem;
+    color: var(--secondary-text-color);
+}
+
+.faculty h3 {
+    margin: 1rem 0 0.4rem 0;
+}
+
+.faculty p {
+    color: var(--secondary-text-color);
+    letter-spacing: 1.1px;
+}
+
+@media (max-width: 650px) {
+    .faculty {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+@media (min-width: 651px) and (max-width: 949px) {
+    .faculty {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (min-width: 950px) and (max-width: 1279px) {
+    .faculty {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
 
 @media (max-width: 1279px) {
     .aboutContainer {
@@ -62,5 +125,9 @@
     .aboutImage img {
         max-width: 100%;
         height: 100%;
+    }
+
+    .points {
+        width: 90%;
     }
 }

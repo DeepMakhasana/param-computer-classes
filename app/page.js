@@ -9,13 +9,12 @@ import Gallery from "@/components/gallery/Gallery";
 export const metadata = {
   title: "Param Computer Classes | Rajkot",
   description:
-    "Param computer classes is a complete solution of jewellery design and computer courses in Rajkot. like JewelCAD, RhinoGold, CCC, Tally Prime, Miracle and CorelDRAW.",
+    "Param computer classes is a complete solution of jewellery design and computer courses in Rajkot. like JewelCAD 5.1, Rhinoceros 7, CCC, Tally Prime, Miracle and CorelDRAW.",
   keywords:
-    "param computer classes, computer classes near me, jewellery design courses near me, JewelCAD, RhinoGold, CCC, tally prime, miracle, coreldraw",
+    "param computer classes, computer classes near me, jewellery design courses near me, JewelCAD 5.1, Rhinoceros 7, CCC, tally prime, miracle, coreldraw",
 };
 
 export default async function Home() {
-  await new Promise((resolve) => setTimeout(resolve, 1000));
   return (
     <main>
       {/* Slider section START */}

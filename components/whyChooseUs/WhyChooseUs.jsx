@@ -1,6 +1,5 @@
 "use client";
 import styles from './whyChooseUs.module.css'
-import Image from 'next/image'
 import { useEffect } from "react";
 
 import AOS from "aos";
@@ -8,11 +7,7 @@ import "aos/dist/aos.css";
 
 const WhyChooseUs = () => {
     useEffect(() => {
-        AOS.init({
-            startEvent: "DOMContentLoaded",
-            initClassName: "aos-init",
-            animatedClassName: "aos-animate",
-        });
+        AOS.init();
     }, []);
     return (
         <section className="container">
@@ -21,7 +16,7 @@ const WhyChooseUs = () => {
                 <p>We offer a comprehensive curriculum, experienced instructors, state-of-the-art facilities, and a supportive learning environment.</p>
             </div>
             <div className={styles.boxContainer}>
-                <div className={`${styles.box} ${styles.flexColumnReverse}`} data-aos="fade-right" data-aos-delay="50" data-aos-duration="1000">
+                <div className={`${styles.box} ${styles.flexColumnReverse}`} data-aos="fade-right">
                     <div className={styles.boxContent}>
                         <h3 className={styles.tar}>Relevant and Up-to-Date Curriculum</h3>
                         <p className={styles.tar}>
@@ -29,12 +24,12 @@ const WhyChooseUs = () => {
                         </p>
                     </div>
                     <div className={styles.boxIcon}>
-                        <Image src="/curriculum.svg" alt="curriculum" width={48} height={48} />
+                        <img src="/curriculum.svg" alt="curriculum" style={{ width: "48px", height: "48px" }} />
                     </div>
                 </div>
-                <div className={`${styles.box} ${styles.flexColumn}`} data-aos="fade-left" data-aos-delay="50" data-aos-duration="1000">
+                <div className={`${styles.box} ${styles.flexColumn}`} data-aos="fade-left">
                     <div className={styles.boxIcon}>
-                        <Image src="/practical.svg" alt="Facilities" width={48} height={48} />
+                        <img src="/practical.svg" alt="Facilities" style={{ width: "48px", height: "48px" }} />
                     </div>
                     <div className={styles.boxContent}>
                         <h3 className={styles.tal}>Practical Hands-On Experience</h3>
@@ -44,7 +39,7 @@ const WhyChooseUs = () => {
                     </div>
 
                 </div>
-                <div className={`${styles.box} ${styles.flexColumnReverse}`} data-aos="fade-right" data-aos-delay="50" data-aos-duration="1000">
+                <div className={`${styles.box} ${styles.flexColumnReverse}`} data-aos="fade-right">
                     <div className={styles.boxContent}>
                         <h3 className={styles.tar}>Expertise and Experience</h3>
                         <p className={styles.tar}>
@@ -52,12 +47,12 @@ const WhyChooseUs = () => {
                         </p>
                     </div>
                     <div className={styles.boxIcon}>
-                        <Image src="/expertise.svg" alt="expertise" width={48} height={48} />
+                        <img src="/expertise.svg" alt="expertise" style={{ width: "48px", height: "48px" }} />
                     </div>
                 </div>
-                <div className={`${styles.box} ${styles.flexColumn}`} data-aos="fade-left" data-aos-delay="50" data-aos-duration="1000">
+                <div className={`${styles.box} ${styles.flexColumn}`} data-aos="fade-left">
                     <div className={styles.boxIcon}>
-                        <Image src="/facilities.svg" alt="curriculum" width={48} height={48} />
+                        <img src="/facilities.svg" alt="curriculum" style={{ width: "48px", height: "48px" }} />
                     </div>
                     <div className={styles.boxContent}>
                         <h3 className={styles.tal}>Best Facilities</h3>

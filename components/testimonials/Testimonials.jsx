@@ -10,7 +10,6 @@ import "swiper/css/navigation";
 
 // import required modules
 import { Autoplay, Pagination, Navigation } from "swiper";
-import Image from "next/image";
 
 const Testimonials = () => {
     return (
@@ -37,7 +36,7 @@ const Testimonials = () => {
                     <SwiperSlide>
                         <div className={styles.testimonialsContent}>
                             <div className={styles.usrImage}>
-                                <Image src="/1.jpeg" alt="user image" width={100} height={100} />
+                                <img src="/male.png" alt="user image" style={{ width: "100px", height: "100px" }} />
                             </div>
                             <div className={styles.infoContent}>
                                 <p>"I like the way they teach , feel comfort and explain in that way we get our problems solved thank nikunj sir and team"</p>
@@ -48,7 +47,7 @@ const Testimonials = () => {
                     <SwiperSlide>
                         <div className={styles.testimonialsContent}>
                             <div className={styles.usrImage}>
-                                <Image src="/2.jpeg" alt="user image" width={100} height={100} />
+                                <img src="/male.png" alt="user image" style={{ width: "100px", height: "100px" }} />
                             </div>
                             <div className={styles.infoContent}>
                                 <p>"It is best training center for computer courses around Rajkot. Its teaching method was very simple and easy."</p>
@@ -59,7 +58,7 @@ const Testimonials = () => {
                     <SwiperSlide>
                         <div className={styles.testimonialsContent}>
                             <div className={styles.usrImage}>
-                                <Image src="/4.jpeg" alt="user image" width={100} height={100} />
+                                <img src="/female.png" alt="user image" style={{ width: "100px", height: "100px" }} />
                             </div>
                             <div className={styles.infoContent}>
                                 <p>"The computer class was very well-organized and structured. The curriculum was comprehensive and covered all the essential topics. I liked how the instructor broke down complex concepts into simpler terms, making it easy to grasp."</p>
@@ -70,7 +69,7 @@ const Testimonials = () => {
                     <SwiperSlide>
                         <div className={styles.testimonialsContent}>
                             <div className={styles.usrImage}>
-                                <Image src="/3.jpeg" alt="user image" width={100} height={100} />
+                                <img src="/male.png" alt="user image" style={{ width: "100px", height: "100px" }} />
                             </div>
                             <div className={styles.infoContent}>
                                 <p>"Good place to learn CAD in rajkot.The Faculty is experienced,helpful and friendly.Wonderful experience overall."</p>
@@ -81,7 +80,7 @@ const Testimonials = () => {
                     <SwiperSlide>
                         <div className={styles.testimonialsContent}>
                             <div className={styles.usrImage}>
-                                <Image src="/1.jpeg" alt="user image" width={100} height={100} />
+                                <img src="/male.png" alt="user image" style={{ width: "100px", height: "100px" }} />
                             </div>
                             <div className={styles.infoContent}>
                                 <p>"Param Computer Classes is a right way to success in computer field. <br />
@@ -95,7 +94,7 @@ const Testimonials = () => {
                     <SwiperSlide>
                         <div className={styles.testimonialsContent}>
                             <div className={styles.usrImage}>
-                                <Image src="/6.jpeg" alt="user image" width={100} height={100} />
+                                <img src="/female.png" alt="user image" style={{ width: "100px", height: "100px" }} />
                             </div>
 
                             <div className={styles.infoContent}>

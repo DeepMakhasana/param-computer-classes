@@ -7,7 +7,6 @@ export const metadata = {
 };
 
 async function About() {
-  await new Promise(resolve => setTimeout(resolve, 1000));
   return (
     <main>
       <div className="heading">
@@ -32,6 +31,63 @@ async function About() {
               <li>To stay updated with the latest advancements in the field of technology and incorporate them into the curriculum, ensuring students are prepared for current industry demands.</li>
               <li>To provide placement assistance and guidance, helping students explore career opportunities and achieve success in the rapidly evolving field of technology.</li>
             </ul>
+          </div>
+        </div>
+        <div className={styles.points}>
+          <h2>JOIN THE SPEED COMPUTERS, TO GET THE BEST OUT OF YOU</h2>
+          <ul>
+            <li>13 Year of Experience in Computer Teaching</li>
+            <li>Latest Syllabus</li>
+            <li>Experienced and well qualified Faculty</li>
+            <li>Personal Computer</li>
+            <li>Personal Teaching</li>
+            <li>Job Oriented courses</li>
+            <li>Reasonable Fees structure</li>
+            <li>Easy installment Facility</li>
+            <li>Placement support</li>
+          </ul>
+        </div>
+      </div>
+      <div className="heading">
+        <h2 className='heading-style'>Our Faculty</h2>
+        <p>We offer a experienced Faculty, and a supportive learning environment.</p>
+      </div>
+      <div className="bgColor">
+        <div className={styles.faculty}>
+          <div>
+            <img src="2.jpeg" alt="demo" />
+            <h3>Hiten thakur</h3>
+            <p>Founder - CEO</p>
+          </div>
+          <div>
+            <img src="2.jpeg" alt="demo" />
+            <h3>Pratik Makwana</h3>
+            <p>Manager</p>
+          </div>
+          <div>
+            <img src="2.jpeg" alt="demo" />
+            <h3>Ansh Gor</h3>
+            <p>JewelCAD 5.1 designer</p>
+          </div>
+          <div>
+            <img src="2.jpeg" alt="demo" />
+            <h3>Jay Patel</h3>
+            <p>Rhinoceros 7 designer</p>
+          </div>
+          <div>
+            <img src="2.jpeg" alt="demo" />
+            <h3>Abhay Parmar</h3>
+            <p>corelDRAW designer</p>
+          </div>
+          <div>
+            <img src="2.jpeg" alt="demo" />
+            <h3>Hitesh Patel</h3>
+            <p>CCC specialist</p>
+          </div>
+          <div>
+            <img src="2.jpeg" alt="demo" />
+            <h3>Rahul Gohil</h3>
+            <p>Accounting software specialist</p>
           </div>
         </div>
       </div>

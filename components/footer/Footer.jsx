@@ -1,6 +1,6 @@
 import Link from 'next/link'
 import styles from './footer.module.css'
-import Image from 'next/image'
+
 
 const Footer = () => {
     const date = new Date();
@@ -11,8 +11,8 @@ const Footer = () => {
                 <div className={styles.CoursesLink}>
                     <h3>Courses</h3>
                     <ul>
-                        <li><Link href="/courses/jewelcad">JewelCAD</Link></li>
-                        <li><Link href="/courses/rhinogold">RhinoGold</Link></li>
+                        <li><Link href="/courses/jewelcad">JewelCAD 5.1</Link></li>
+                        <li><Link href="/courses/rhinoceros">Rhinoceros 7</Link></li>
                         <li><Link href="/courses/ccc">CCC</Link></li>
                         <li><Link href="/courses/tally">Tally Prime</Link></li>
                         <li><Link href="/courses/miracle">Miracle</Link></li>
@@ -32,9 +32,9 @@ const Footer = () => {
                 <div className={styles.contactInformation}>
                     <div>
                         <h3>Classes</h3>
-                        <p><Image src={"/location.svg"} alt='location' width={16} height={16} /> Bholenath Arcade, Nr. Ford Service Center, New 80 Feet Road Opp Nagbai Pan Kuvadva Road, Rajkot-3.</p>
-                        <p className={styles.align}><Image src={"/contact.svg"} alt='contact' width={16} height={16} /> +91 9624000098 </p>
-                        <p className={styles.align}><Image src={"/email.svg"} alt='contact' width={16} height={16} /> praram.cc@gmail.com</p>
+                        <p><img src={"/location.svg"} alt='location' style={{ width: "16px", height: "16px" }} /> Bholenath Arcade, Nr. Ford Service Center, New 80 Feet Road Opp Nagbai Pan Kuvadva Road, Rajkot-3.</p>
+                        <p className={styles.align}><img src={"/contact.svg"} alt='contact' style={{ width: "16px", height: "16px" }} /> +91 9624000098 </p>
+                        <p className={styles.align}><img src={"/email.svg"} alt='contact' style={{ width: "16px", height: "16px" }} /><a href="mailto:param.cc@gmail.com">param.cc@gmail.com</a></p>
                     </div>
                     <div className={styles.map}>
                         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3691.111701180203!2d70.8204392!3d22.3116149!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3959b6066057d63d%3A0xd79806394daed54d!2sParam%20Computer%20Classes!5e0!3m2!1sen!2sin!4v1685532160829!5m2!1sen!2sin" style={{ border: 0 }} loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>

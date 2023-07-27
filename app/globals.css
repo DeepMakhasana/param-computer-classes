@@ -131,6 +131,11 @@ h6 {
   height: 80vh;
 }
 
+#saleService .swiper {
+  width: 80%;
+  height: 100%;
+}
+
 .swiper-slide {
   background-position: center;
   background-size: cover;
