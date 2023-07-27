@@ -21,7 +21,6 @@ export default function App() {
 
     if (typeof window !== 'undefined') {
         width = window.innerWidth;
-        console.log('window.innerHeight', window.innerWidth, width);
     }
 
     const onAutoplayTimeLeft = (s, time, progress) => {

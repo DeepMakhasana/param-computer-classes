@@ -15,8 +15,6 @@ const Navbar = () => {
 
     if (typeof window !== 'undefined') {
         width = window.innerWidth;
-        console.log('window.innerWidth', window.innerWidth, width);
-        console.log(typeof width)
     }
 
     useEffect(() => {
@@ -26,42 +24,68 @@ const Navbar = () => {
         }
     }, [])
 
+    // const checkIfClickedOutside = (e) => {
+    //     console.log("ENTER", count);
+    //     if (toggleRef.current.contains(e.target) && count >= 0) {
+    //         setToggle(true)
+    //         count++;
+    //         console.log("1 " + count)
+    //     } else if (toggleRef.current.contains(e.target) && toggle === true) {
+    //         setToggle(false)
+    //         count--;
+    //         console.log("2 " + count)
+    //     } else if (!ref.current.contains(e.target)) {
+    //         console.log("tough")
+    //         if (count === 1) {
+    //             setToggle(false)
+    //             count--;
+    //             console.log("3 " + count)
+    //         }
+    //     } else {
+    //         // setToggle(false)
+    //         // count--;
+    //         console.log("4 " + count)
+    //     }
+    // }
+
     const checkIfClickedOutside = (e) => {
-        if (toggleRef.current.contains(e.target) && count === 0) {
-            setToggle(true)
-            count++;
-            console.log("1 " + count)
-        } else if (toggleRef.current.contains(e.target) && count === 1) {
+        // console.log("1 " + toggleRef.current.contains(e.target))
+        console.log("2 " + toggleRef.current.contains(e.target))
+        console.log("3 " + !ref.current.contains(e.target)) // outside
+
+        if (!ref.current.contains(e.target)) {
             setToggle(false)
-            count--;
-            console.log("2 " + count)
-        } else if (!ref.current.contains(e.target)) {
-            if (count === 1) {
-                setToggle(false)
-                count--;
-                console.log("3 " + count)
-            }
+        }
+    }
+
+    const toggleMenu = () => {
+        if (toggle) {
+            setToggle(false)
         } else {
-            // setToggle(false)
-            // count--;
-            console.log("4 " + count)
+            setToggle(true)
         }
     }
 
     const closeNavbar = (url) => {
         setCurrentURL(url);
         setToggle(false)
-        count--;
+        console.log("dropDown ")
     }
 
+    let open = false;
+
     const dropdownIcon = () => {
-        if (width < 992) {
+        console.log("log=" + count)
+        if (width < 992 || open === true) {
+            open = true;
+            console.log("Enter")
             if (dropdown) {
                 setDropdown(false)
             } else {
                 setDropdown(true)
             }
         }
+        console.log("log" + count)
     }
 
     return (
@@ -73,8 +97,9 @@ const Navbar = () => {
                             <img src="/Param-Logo.svg" alt="Param Computer Classes logo" />
                         </div>
                     </Link>
-                    <div className={styles.toggleMenu} ref={toggleRef}>
-                        {toggle ? <img src="/close-solid.svg" alt="=" /> : <img src="/bars-solid.svg" alt="*" />}
+                    <div className={styles.toggleMenu} ref={toggleRef} onClick={toggleMenu}>
+                        {/* {toggle ? <img src="/close-solid.svg" alt="=" /> : <img src="/bars-solid.svg" alt="*" />} */}
+                        <img src="/bars-solid.svg" alt="*" />
                     </div>
                     <ul className={toggle ? styles.navList : styles.navbarClose} ref={ref}>
                         <li onClick={() => closeNavbar("/")}><Link href="/" className={currentURL == "/" ? styles.activeLink : styles.noActiveLink}>Home</Link></li>
