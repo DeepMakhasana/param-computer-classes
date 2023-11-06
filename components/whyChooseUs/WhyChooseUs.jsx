@@ -6,9 +6,9 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 
 const WhyChooseUs = () => {
-    useEffect(() => {
-        AOS.init();
-    }, []);
+    // useEffect(() => {
+    //     AOS.init();
+    // }, []);
     return (
         <section className="container">
             <div className="heading">

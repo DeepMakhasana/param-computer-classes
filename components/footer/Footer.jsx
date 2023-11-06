@@ -11,12 +11,15 @@ const Footer = () => {
                 <div className={styles.CoursesLink}>
                     <h3>Courses</h3>
                     <ul>
+                        {/* <h4>Jewellery Designing Courses</h4> */}
                         <li><Link href="/courses/jewelcad">JewelCAD 5.1</Link></li>
                         <li><Link href="/courses/rhinoceros">Rhinoceros 7</Link></li>
-                        <li><Link href="/courses/ccc">CCC</Link></li>
+                        <li><Link href="/courses/coreldraw">CorelDRAW CNC</Link></li>
+                        {/* <h4>Accounting Courses</h4> */}
                         <li><Link href="/courses/tally">Tally Prime</Link></li>
                         <li><Link href="/courses/miracle">Miracle</Link></li>
-                        <li><Link href="/courses/coreldraw">CorelDRAW</Link></li>
+                        {/* <h4>Computer Concepts Course</h4> */}
+                        <li><Link href="/courses/ccc">CCC</Link></li>
                     </ul>
                 </div>
                 <div className={styles.navigational}>

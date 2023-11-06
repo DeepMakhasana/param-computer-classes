@@ -1,7 +1,7 @@
 import Link from 'next/link'
 import styles from './coursePage.module.css';
 
-function CoursePage({ title, image, description, curriculum }) {
+function CoursePage({ title, image, description, curriculum, desc_2 }) {
     return (
         <main className='container'>
             <div className={styles.courseContainer}>
@@ -11,6 +11,7 @@ function CoursePage({ title, image, description, curriculum }) {
                 <div className={styles.courseInfo}>
                     <h1>{title}</h1>
                     <p>{description}</p>
+                    {desc_2 && <p>The <b>CCC Certificate</b> is basic level Computer Certificate, CCC Certificate compulsory in almost every Govt. Sector. Student can get certificate from <b>NSVT, Govt. of India.</b></p>}
                     <h2>Curriculum of {title}</h2>
                     <ul>
                         {

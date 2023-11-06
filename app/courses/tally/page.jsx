@@ -9,10 +9,10 @@ export const metadata = {
 const tally = () => {
     return (
         <CoursePage
-            title={"Tally Prime course"}
+            title={"Tally Accounting"}
             image={"/tallyCourse.jpg"}
-            description={"The Tally course is designed to provide a comprehensive understanding of Tally, one of the most popular accounting software used by businesses worldwide. This course aims to provide individuals with the skills and knowledge necessary to effectively manage accounting and financial operations using Tally."}
-            curriculum={["Manual Accounting", "Introduction Of Documents", "Book Keeping", "Accounts Set in Tally", "Basic Concept of Inventory", "GST Setup Process", "Prepare Invoice", "Stock Transfer Entry", "Setting for Industrial Inventory/BOM", "Understanding of GST", "Threshold Limit & Rate Structure of GST", "Tax Management", "Tax Planning", "Filling Pan Card Form", "How to file Return of GST & Income Tax", " Practical Account"]}
+            description={"If you are a beginner in the Accounting and Finance domain, then Tally Prime is the course designed for your career growth. It covers topics from basic to intermediate Financial Accounting concepts."}
+            curriculum={["Manual Accounting", "Singal & Double Entry System", "Adjustment & Reports", "Introduction of Income Tax & Pan CARD", "Detail Knowledge in GST", "Recording GST Transactions", "GST Filing Concepts"]}
         />
     )
 }

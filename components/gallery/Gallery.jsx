@@ -68,23 +68,31 @@ export default function App() {
                     <SwiperSlide>
                         <img src="/g-3.jpeg" />
                     </SwiperSlide>
+
                     <SwiperSlide>
-                        <img src="/j-1.jpg" />
+                        <img src="/jewelcad-1.jpeg" />
                     </SwiperSlide>
                     <SwiperSlide>
-                        <img src="/j-2.jpg" />
+                        <img src="/jewelcad-2.jpeg" />
                     </SwiperSlide>
                     <SwiperSlide>
-                        <img src="/j-3.jpg" />
+                        <img src="/jewelcad-3.jpeg" />
                     </SwiperSlide>
                     <SwiperSlide>
-                        <img src="/j-4.jpg" />
+                        <img src="/jewelcad-4.jpeg" />
+                    </SwiperSlide>
+
+                    <SwiperSlide>
+                        <img src="/rhino-1.jpeg" />
                     </SwiperSlide>
                     <SwiperSlide>
-                        <img src="/j-7.jpeg" />
+                        <img src="/rhino-2.jpeg" />
                     </SwiperSlide>
                     <SwiperSlide>
-                        <img src="/j-8.jpeg" />
+                        <img src="/rhino-3.jpeg" />
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <img src="/rhino-4.jpeg" />
                     </SwiperSlide>
 
                     <div className={styles.autoPlayProgress} slot="container-end">
@@ -99,11 +107,8 @@ export default function App() {
                     <button onClick={() => slideTo(2)} className={styles.slide250}>
                         Classes
                     </button>
-                    <button onClick={() => slideTo(5)} className={styles.slide500}>
-                        JewelCAD design
-                    </button>
-                    <button onClick={() => slideTo(9)} className={styles.slide500}>
-                        RhinoGold design
+                    <button onClick={() => slideTo(6)} className={styles.slide500}>
+                        CAD Jewellery
                     </button>
                 </p>
             </div>

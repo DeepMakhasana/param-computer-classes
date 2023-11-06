@@ -22,7 +22,7 @@ const SellService = async () => {
         <main id='saleService'>
             <div className="heading">
                 <h1 className='heading-style'>sales & Service</h1>
-                <p>We are provides high quality product and service in affordable price.</p>
+                <p>We are Provides Technically Chip Level Hardware & Software Service in Affordable Price</p>
             </div>
             <div className="container">
                 <div className={styles.sellServiceContainer}>
@@ -42,38 +42,39 @@ const SellService = async () => {
                             className="mySwiper"
                         >
                             <SwiperSlide>
-                                <img src="./laptopSelling.jpg" alt="sell computer and laptop" />
+                                <img src="./l-1.jpg" alt="sell computer and laptop" />
                             </SwiperSlide>
                             <SwiperSlide>
-                                <img src="./laptopSelling.jpg" alt="sell computer and laptop" />
+                                <img src="./pcSelling.jpg" alt="sell computer and laptop" />
                             </SwiperSlide>
                             <SwiperSlide>
-                                <img src="./laptopSelling.jpg" alt="sell computer and laptop" />
+                                <img src="./l-1.1.jpg" alt="sell computer and laptop" />
                             </SwiperSlide>
                             <SwiperSlide>
-                                <img src="./laptopSelling.jpg" alt="sell computer and laptop" />
+                                <img src="./l-3.png" alt="sell computer and laptop" />
                             </SwiperSlide>
                             <SwiperSlide>
-                                <img src="./laptopSelling.jpg" alt="sell computer and laptop" />
+                                <img src="./pc-1.jpg" alt="sell computer and laptop" />
                             </SwiperSlide>
                             <SwiperSlide>
-                                <img src="./laptopSelling.jpg" alt="sell computer and laptop" />
+                                <img src="./pc-2.png" alt="sell computer and laptop" />
                             </SwiperSlide>
                         </Swiper>
                         <div className={styles.info}>
-                            <h2>New and second hand Laptop sales & Service</h2>
-                            <p>Our educated and helpful team is here to help you through the process since we recognise that finding the ideal laptop may be a difficult undertaking. Whether you're a student searching for a thin and light laptop, a professional needing an efficient machine for difficult work, or a gamer looking for a powerful gaming rig, we have the perfect choice for you.</p>
+                            <h2>Laptop, Desktop Sales & Service</h2>
+                            <p>Whether you are planning to buy a laptop to work from home or attend online classes, finding a good laptop requires the proper insight into must-have features and specifications.</p>
                             <ul>
-                                <li>Laptop Variety</li>
-                                <li>Latest Technology</li>
-                                <li>Obtainable Prices</li>
-                                <li>Customization Options</li>
-                                <li>Additional Services</li>
-                                <li>Warranty and After-Sales Service</li>
+                                <li>Latest Version Operating System</li>
+                                <li>Auto Backup & Restore</li>
+                                <li>Printer installation</li>
+                                <li>Accounting Software Backup</li>
+                                <li>Error Solution Via Any desk</li>
+                                <li>Warranty Lookup</li>
+                                <li>Data Recovery</li>
                             </ul>
                         </div>
                     </div>
-                    <div className={styles.sellService}>
+                    {/* <div className={styles.sellService}>
                         <Swiper
                             spaceBetween={30}
                             centeredSlides={true}
@@ -119,7 +120,7 @@ const SellService = async () => {
                                 <li>Warranty and After-Sales Service</li>
                             </ul>
                         </div>
-                    </div>
+                    </div> */}
                     <div className={styles.sellService}>
                         <Swiper
                             spaceBetween={30}
@@ -136,26 +137,29 @@ const SellService = async () => {
                             className="mySwiper"
                         >
                             <SwiperSlide>
-                                <img src="./softwareSelling.jpg" alt="sell computer and laptop" />
+                                <img src="./window.png" alt="window" />
                             </SwiperSlide>
                             <SwiperSlide>
-                                <img src="./softwareSelling.jpg" alt="sell computer and laptop" />
+                                <img src="./office.png" alt="office" />
                             </SwiperSlide>
                             <SwiperSlide>
-                                <img src="./softwareSelling.jpg" alt="sell computer and laptop" />
+                                <img src="./graphic.png" alt="graphic software" />
                             </SwiperSlide>
                             <SwiperSlide>
-                                <img src="./softwareSelling.jpg" alt="sell computer and laptop" />
+                                <img src="./tally.png" alt="tally" />
                             </SwiperSlide>
                             <SwiperSlide>
-                                <img src="./softwareSelling.jpg" alt="sell computer and laptop" />
+                                <img src="./autocad-software.jpg" alt="AutoCAD" />
                             </SwiperSlide>
                             <SwiperSlide>
-                                <img src="./softwareSelling.jpg" alt="sell computer and laptop" />
+                                <img src="./jewelcad.png" alt="jewelcad" />
+                            </SwiperSlide>
+                            <SwiperSlide>
+                                <img src="./Rhinoceros-7.png" alt="Rhinoceros-7" />
                             </SwiperSlide>
                         </Swiper>
                         <div className={styles.info}>
-                            <h2>Paid Software selling</h2>
+                            <h2>License Software Solution</h2>
                             <p>Welcome to our platform for paid software, where you can choose from a variety of high-quality software that meets your particular needs. We are committed to offering top-notch software solutions with excellent value and functionality.</p>
                             <ul>
                                 <li>Windows (e.g., Microsoft Windows all version)</li>

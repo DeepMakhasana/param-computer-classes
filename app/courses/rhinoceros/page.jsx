@@ -9,10 +9,10 @@ export const metadata = {
 const rhinoGold = () => {
     return (
         <CoursePage
-            title={"Rhinoceros 7 course"}
+            title={"Rhinoceros 7 For Jewelry Design"}
             image={"/RhinoGold.jpg"}
-            description={"The Rhinoceros 7 course begins with an introduction to the Rhino 3D software, familiarizing students with its interface and basic tools. It then progresses to cover a wide range of advanced techniques specifically tailored for jewelry design. Students learn to create 3D models of various jewelry pieces, including rings, earrings, necklaces, bracelets, and more."}
-            curriculum={["Introduction to Rhinoceros 7", "Jewelry Design Basics", "Creating Basic Jewelry Shapes", "Advanced Jewelry Modeling Techniques", "Gemstone Setting", "Texture and Material Application", "Rendering and Visualization", "Exporting for Manufacturing"]}
+            description={"Rhino powers the jewelry industry’s design needs! From the smallest boutique to the world’s largest manufacturers. Enjoy the complete freedom to design and manufacture as far as your imagination can take you."}
+            curriculum={["Basic Curve 2D Practice", "Introduce Surface with 3D Parts", "Detail Knowledge of Software Commands", "Detail Knowledge of STL, SLC & DXF File", "Practice Model like Payal pc, Jumar, ", "Ladies Ring, Jent’s Ring, Tops, Buti,", "Bengals, Bali, etc...", "Calculate Weight & Charges", "Rendering & Practical Experience"]}
         />
     )
 }

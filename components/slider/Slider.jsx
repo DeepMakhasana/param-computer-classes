@@ -33,8 +33,8 @@ export default function Slider() {
                     <img src="/ring-design.jpg" />
                     <div className={styles.sliderContent}>
                         <div className={styles.mainContent}>
-                            <h2>Specialize in jewellery courses</h2>
-                            <p><b>JewelCAD</b> and <b>Rhinoceros 7</b> is a specialized computer-aided design (CAD) software that focuses on creating intricate and detailed jewelry designs. It is widely used in the jewelry industry by designers, goldsmiths, and manufacturers to bring their creative ideas to life.</p>
+                            <h2>Professional Training in Jewelry Courses</h2>
+                            <p>We are Authorized Trainer of <b>JewelCAD 5.1</b> & <b>Rhinoceros 7</b> Software. CAD is an acronym for Computer Aided Design software. Today, jewelers and artisans design their pieces not by sketching with pen and paper but by using CAD software, which gives them a 2D or 3D model of what the piece will look like, and also the dimensions of each aspect of a piece of jewelry.</p>
                             <Link href={"/courses"}>Read more</Link>
                             <Link href={"/contact"}>Enroll now</Link>
                         </div>
@@ -44,8 +44,8 @@ export default function Slider() {
                     <img src="/ccc.jpg" />
                     <div className={styles.sliderContent}>
                         <div className={styles.mainContent}>
-                            <h2>We are a trusted provider of CCC</h2>
-                            <p><b>CCC (Course on Computer Concepts)</b> is a comprehensive course that introduces individuals to the fundamental concepts and practical applications of computer technology. Designed for beginners, the CCC course covers a wide range of topics related to computers, software, and the Internet.</p>
+                            <h2>CCC (Course On Computer Concepts)</h2>
+                            <p>Students who complete this course will gain a basic understanding of Windows, Word, Excel, PowerPoint, Gujarati Typing, Basic GST, email Digital Marketing, and business concepts. This is also a beginner course for people who want to do some advanced computer science courses. Student use CCC Certificate for Government Job, also in Private Sector.</p>
                             <Link href={"/courses/ccc"}>Read more</Link>
                             <Link href={"/contact"}>Enroll now</Link>
                         </div>
@@ -55,8 +55,8 @@ export default function Slider() {
                     <img src="/tally.jpg" />
                     <div className={styles.sliderContent}>
                         <div className={styles.mainContent}>
-                            <h2>Professional Accounting Software courses</h2>
-                            <p><b>Tally Prime</b> and <b>Miracle</b> is a comprehensive course designed to provide individuals and businesses with the necessary skills to effectively manage their financial and accounting processes. This course focuses on teaching participants how to use Tally Prime and Miracle, which is a popular accounting software used globally.</p>
+                            <h2>Learn Advance Computerized Practical Accounting</h2>
+                            <p><b>Tally Prime</b> and <b>Miracle</b> is a business management software, that takes care of your Accounting (Sales, purchase, receivables, payable tracking), Inventory management (Order processing inventory tracking), Payroll management, Bank transactions, Statutory Compliance, etc. After Course Completed Student Get 100% Instant Job in Private Sector.</p>
                             <Link href={"/courses#computerCourse"}>Read more</Link>
                             <Link href={"/contact"}>Enroll now</Link>
                         </div>
@@ -66,10 +66,10 @@ export default function Slider() {
                     <img src="/pcSelling.jpg" />
                     <div className={styles.sliderContent}>
                         <div className={styles.mainContent}>
-                            <h2>Computer & Laptop sell and service</h2>
-                            <p>Our educated and helpful team is here to help you through the process since we recognise that finding the ideal laptop may be a difficult undertaking. Whether you're a student searching for a thin and light laptop, a professional needing an efficient machine for difficult work, or a gamer looking for a powerful gaming rig, we have the perfect choice for you.</p>
+                            <h2>Refurbished Laptop, Printer & Desktop Sales & Service</h2>
+                            <p>Welcome to Our Store, your premier destination for shopping of refurbished laptops. Browse through our extensive collection of high-quality refurbished laptops & Desktop from renowned brands like HP, Dell, Lenovo, and more. With our Warranty & Service Support.</p>
                             <Link href={"/sales-service"}>Read more</Link>
-                            <Link href={"/contact"}>Enroll now</Link>
+                            <Link href={"/contact"}>Availability check</Link>
                         </div>
                     </div>
                 </SwiperSlide>
@@ -77,8 +77,8 @@ export default function Slider() {
                     <img src="/softwareSelling.jpg" />
                     <div className={styles.sliderContent}>
                         <div className={styles.mainContent}>
-                            <h2>Paid Software solution</h2>
-                            <p><b>Windows</b> (e.g., Microsoft Windows all version), <b>Office</b> Suites (e.g., Microsoft Office), <b>Antivirus</b> and Malware Protection (e.g., Norton, McAfee), <b>Graphic Design Tools</b> (e.g., Adobe Photoshop, CorelDRAW), <b>Accounting and Finance Software</b> (e.g., Tally prime, Miracle) also provide <b>Jewelley designing Software</b> (e.g., JewelCAD 5.1, Rhinoceros 7) and <b>3D Modeling Software</b> (e.g., Autocad, Autodesk).</p>
+                            <h2>License Software Solution</h2>
+                            <p>Software is the heart of every business for every industry. we are Sales Microsoft Windows, Office, Antivirus, Rhinoceros, Jewel CAD, and Accounting Software, we have highly experienced leadership team to helping business. we are committed to providing outstanding support, quick response and support for installation.</p>
                             <Link href={"/sales-service"}>Read more</Link>
                             <Link href={"/contact"}>Enroll now</Link>
                         </div>

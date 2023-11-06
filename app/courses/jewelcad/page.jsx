@@ -9,10 +9,10 @@ export const metadata = {
 const JewelCad = () => {
     return (
         <CoursePage
-            title={"JewelCAD course"}
+            title={"JewelCAD 5.1"}
             image={"/JewelCAD.jpg"}
-            description={"Throughout the course, students gain hands-on experience by working on practical exercises and projects. They have the opportunity to design a variety of jewelry pieces, such as rings, necklaces, bracelets, and earrings. They learn how to incorporate different gemstones, metals, and intricate details into their designs to achieve stunning and visually appealing results."}
-            curriculum={["Intuitive Interface", "jewellery 3D Modeling", "Gemstone Setting Techniques", "Parametric Modeling", "Material Application and Texturing", "Rendering and Visualization", "Design Workflow and Productivity", "Industry Standards and Manufacturing Considerations", "Project Work and Portfolio Development"]}
+            description={"The Most Popular CAD/CAM Software for Jewelry. We here to provide detailed instructional learning for jewelry CAD. Lessons start at the most basic level, allowing the absolute beginner to get a structured guide into and through the world of CAD modeling. We teaches concepts and principles that allow you to get the most out of the manufacturing and rendering process. So you will learn how to build the right way; keeping it tidy, setting up the history well and creating variables is all knowledge that will allow you to build models that permit fluid and easy customization."}
+            curriculum={["Basic Curve 2D Practice", "Introduce Surface with 3D Parts", "Detail Knowledge of Software Commands", "Detail Knowledge of STL, SLC & DXF File", "Practice Model like Payal pc, Jumar,", "Ladies Ring, Jents Ring, Tops, Buti,", "Bengals, Bali, etc...", "Calculate Weight & Charges", "Rendering & Practical Experience"]}
         />
     )
 }

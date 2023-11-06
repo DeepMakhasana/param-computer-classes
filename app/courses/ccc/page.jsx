@@ -9,10 +9,11 @@ export const metadata = {
 const ccc = () => {
     return (
         <CoursePage
-            title={"CCC course"}
+            title={"CCC (Course on Computer Concepts)"}
             image={"/cccCourses.jpg"}
-            description={"The Computer Concepts course offers a crucial basis for understanding the core ideas and elements of computers. Students will learn the fundamentals of computer systems, their functionality, and how they are used in many different kinds of situations in this course."}
-            curriculum={["Introduction to Computers", "MS Word", "MS Power Point", "MS Excel", "Paint", "Internet Surfing", "English Typing", "Gujarati Typing"]}
+            description={"This programme has essentially been conceived with an idea of giving an opportunity to the common man to attain computer literacy thereby contributing to increased and speedy PC penetration in different walks of life."}
+            desc_2={true}
+            curriculum={["Windows 10 & Office License", "Microsoft Word, Excel & PowerPoint", "Gujarati & Hindi Typing", "Internet, Print Solution, Picture Manager", "Photo & Video Editing", "Data Backup & DVD Writing"]}
         />
     )
 }

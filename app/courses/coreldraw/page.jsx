@@ -10,10 +10,10 @@ export const metadata = {
 const corelDraw = () => {
     return (
         <CoursePage
-            title={"CorelDRAW course"}
+            title={"CorelDRAW CNC"}
             image={"/corelDRAWCourse.jpg"}
-            description={"Throughout the course, students will be guided by expert instructors who have extensive experience in graphic design and are well-versed in CorelDRAW's capabilities. They will receive step-by-step instructions and practical assignments that cover a wide range of design techniques, ensuring a thorough understanding of the software's tools, features, and best practices."}
-            curriculum={["Introduction to CorelDRAW", "Vector Graphics", "Working with Text", "Colors and Gradients", "Advanced Drawing Tools", "Image Editing", "Effects and Filters", "Printing and Exporting"]}
+            description={"Learn CNC & Laser design in CorelDRAW. Learn vector design, then set your paths and create your CNC program in the CNC software. The path and settings from G-Code become part of the CorelDRAW file."}
+            curriculum={["Basic 2D Drawings", "Detail Knowledge of Toolbox", "CNC & Laser Cutting design", "Engraving Design", "Hole Design", "Ball Design", "Export & Use PLT & DXF File"]}
         />
     )
 }
