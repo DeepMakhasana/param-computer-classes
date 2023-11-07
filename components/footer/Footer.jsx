@@ -13,7 +13,7 @@ const Footer = () => {
                     <ul>
                         {/* <h4>Jewellery Designing Courses</h4> */}
                         <li><Link href="/courses/jewelcad">JewelCAD 5.1</Link></li>
-                        <li><Link href="/courses/rhinoceros">Rhinoceros 7</Link></li>
+                        <li><Link href="/courses/rhinoceros">Rhinoceros</Link></li>
                         <li><Link href="/courses/coreldraw">CorelDRAW CNC</Link></li>
                         {/* <h4>Accounting Courses</h4> */}
                         <li><Link href="/courses/tally">Tally Prime</Link></li>
@@ -34,8 +34,11 @@ const Footer = () => {
                 </div>
                 <div className={styles.contactInformation}>
                     <div>
-                        <h3>Classes</h3>
+                        <h3>Address</h3>
+                        <h4>Kuvadva Road Branch</h4>
                         <p><img src={"/location.svg"} alt='location' style={{ width: "16px", height: "16px" }} /> Bholenath Arcade, Nr. Ford Service Center, New 80 Feet Road Opp Nagbai Pan Kuvadva Road, Rajkot-3.</p>
+                        <h4>Amin Marg Branch</h4>
+                        <p><img src={"/location.svg"} alt='location' style={{ width: "16px", height: "16px" }} /> C/o INIFD, Janki Park Main Road, B/H Silver Classic, Amin Marg, Rajkot-1.</p>
                         <p className={styles.align}><img src={"/contact.svg"} alt='contact' style={{ width: "16px", height: "16px" }} /> +91 9624000098 </p>
                         <p className={styles.align}><img src={"/email.svg"} alt='contact' style={{ width: "16px", height: "16px" }} /><a href="mailto:param.cc@gmail.com">param.cc@gmail.com</a></p>
                     </div>

@@ -64,7 +64,7 @@ async function About() {
           <div>
             <img src="2.jpeg" alt="demo" />
             <h3>Jay Patel</h3>
-            <p>Rhinoceros 7 designer</p>
+            <p>Rhinoceros designer</p>
           </div>
           <div>
             <img src="2.jpeg" alt="demo" />

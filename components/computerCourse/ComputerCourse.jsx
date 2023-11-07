@@ -25,7 +25,7 @@ const ComputerCourse = () => {
                 <div className={styles.computerCourseContainer}>
                     <div className={`${styles.course} ${styles.ccc}`} data-aos="fade-up" data-aos-delay="50" data-aos-duration="1000">
                         <div className={styles.img}>
-                            <img src="./cccCourse.jpg" alt="ccc course" />
+                            <img src="./new-cccCourse.jpg" alt="ccc course" />
                         </div>
                         <div className={styles.courseInfo}>
                             <h2>Tally Course</h2>
@@ -53,16 +53,16 @@ const ComputerCourse = () => {
                             <Link href="/contact">Enroll now</Link>
                         </div>
                     </div>
-                    <div className={`${styles.course} ${styles.corelDraw}`} data-aos="fade-up" data-aos-delay="50" data-aos-duration="1000">
+                    {/* <div className={`${styles.course} ${styles.corelDraw}`} data-aos="fade-up" data-aos-delay="50" data-aos-duration="1000">
                         <div className={styles.img}>
-                            <img src="./corelDRAWCourse.jpg" alt="corelDraw course" />
+                            <img src="./new-coreldraw.jpg" alt="corelDraw course" />
                         </div>
                         <div className={styles.courseInfo}>
                             <h2>CorelDRAW Course</h2>
                             <Link href="/courses/coreldraw">Read more</Link>
                             <Link href="/contact">Enroll now</Link>
                         </div>
-                    </div>
+                    </div> */}
                 </div>
             </div>
 

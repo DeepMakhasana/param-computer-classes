@@ -10,7 +10,7 @@ const ccc = () => {
     return (
         <CoursePage
             title={"CCC (Course on Computer Concepts)"}
-            image={"/cccCourses.jpg"}
+            image={"/new-cccCourse.jpg"}
             description={"This programme has essentially been conceived with an idea of giving an opportunity to the common man to attain computer literacy thereby contributing to increased and speedy PC penetration in different walks of life."}
             desc_2={true}
             curriculum={["Windows 10 & Office License", "Microsoft Word, Excel & PowerPoint", "Gujarati & Hindi Typing", "Internet, Print Solution, Picture Manager", "Photo & Video Editing", "Data Backup & DVD Writing"]}

@@ -39,6 +39,7 @@
     display: flex;
     align-items: center;
     gap: 6px;
+    line-height: 1;
 }
 
 .map {

@@ -11,12 +11,6 @@ import "swiper/css/pagination";
 // import required modules
 import { Autoplay, Pagination } from "swiper";
 
-export const metadata = {
-    title: "New and second-hand computers and laptops sales and service | Param computer",
-    description: "We offer new and second-hand computers and laptops according to the customer's requirements and also provide services and paid software like Windows, Microsoft Office, Antivirus, Adobe Photoshop, Tally Prime, JewelCAD 5.1, Rhinoceros 7, and Autocad.",
-    keywords: "computer sales and service near me, computer sales and service in rajkot, jewellery designing software, windows key, antivirus, designing software, autocad",
-};
-
 const SellService = async () => {
     return (
         <main id='saleService'>
@@ -167,7 +161,7 @@ const SellService = async () => {
                                 <li>Antivirus and Malware Protection (e.g., Norton, McAfee)</li>
                                 <li>Graphic Design Tools (e.g., Adobe Photoshop, CorelDRAW)</li>
                                 <li>Accounting and Finance Software (e.g., Tally prime, Miracle)</li>
-                                <li>Jewelley designing Software (e.g., JewelCAD, RhinoGold)</li>
+                                <li>Jewelley designing Software (e.g., JewelCAD, Rhinoceros)</li>
                                 <li>3D Modeling Software (e.g., Autocad, Autodesk)</li>
                                 <li>Video Editing Software (e.g., Adobe Premiere Pro, Final Cut Pro)</li>
                             </ul>

@@ -1,5 +1,5 @@
 /* grid area */
-.ccc {
+/* .ccc {
     grid-area: ccc;
 }
 
@@ -13,13 +13,14 @@
 
 .corelDraw {
     grid-area: corelDraw;
-}
+} */
 
 .computerCourseContainer {
     display: grid;
-    grid-template-areas:
+    grid-template-columns: 1fr 1fr 1fr;
+    /* grid-template-areas:
         'ccc tally miracle'
-        'ccc corelDraw corelDraw';
+        'ccc corelDraw corelDraw'; */
     gap: 1rem;
     place-items: center;
     max-width: 1480px;
@@ -113,11 +114,12 @@
 
 @media (max-width: 768px) {
     .computerCourseContainer {
-        grid-template-areas:
+        /* grid-template-areas:
             'ccc'
             'tally'
             'miracle'
-            'corelDraw';
+            'corelDraw'; */
+        grid-template-columns: 1fr;
     }
 
     .corelDraw img {
@@ -144,6 +146,10 @@
 }
 
 @media (min-width:769px) and (max-width: 1180px) {
+    .computerCourseContainer {
+        grid-template-columns: 1fr 1fr;
+    }
+
     .courseInfo a {
         padding: 6px 10px;
         border-radius: 10px;

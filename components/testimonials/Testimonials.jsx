@@ -13,7 +13,7 @@ import { Autoplay, Pagination, Navigation } from "swiper";
 
 const Testimonials = () => {
     return (
-        <section className='container'>
+        <section className='container' style={{ backgroundColor: "#F2F2F2" }}>
             <div className="heading">
                 <h2 className="heading-style">Testimonials</h2>
                 <p>Our satisfied customer says</p>

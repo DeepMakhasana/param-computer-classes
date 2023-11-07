@@ -76,7 +76,7 @@ const ContactFrom = () => {
                                 <select id="course" name="course" required>
                                     <option value="">Select Course</option>
                                     <option value="JewelCAD">JewelCAD 5.1</option>
-                                    <option value="RhinoGold">Rhinoceros 7</option>
+                                    <option value="Rhinoceros">Rhinoceros</option>
                                     <option value="ArtCAM">ArtCAM</option>
                                     <option value="KeyShot">KeyShot</option>
                                     <option value="CCC">CCC</option>

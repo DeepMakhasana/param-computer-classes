@@ -34,7 +34,7 @@ export default function Slider() {
                     <div className={styles.sliderContent}>
                         <div className={styles.mainContent}>
                             <h2>Professional Training in Jewelry Courses</h2>
-                            <p>We are Authorized Trainer of <b>JewelCAD 5.1</b> & <b>Rhinoceros 7</b> Software. CAD is an acronym for Computer Aided Design software. Today, jewelers and artisans design their pieces not by sketching with pen and paper but by using CAD software, which gives them a 2D or 3D model of what the piece will look like, and also the dimensions of each aspect of a piece of jewelry.</p>
+                            <p>We are Authorized Trainer of <b>JewelCAD 5.1</b> & <b>Rhinoceros</b> Software. CAD is an acronym for Computer Aided Design software. Today, jewelers and artisans design their pieces not by sketching with pen and paper but by using CAD software, which gives them a 2D or 3D model of what the piece will look like, and also the dimensions of each aspect of a piece of jewelry.</p>
                             <Link href={"/courses"}>Read more</Link>
                             <Link href={"/contact"}>Enroll now</Link>
                         </div>

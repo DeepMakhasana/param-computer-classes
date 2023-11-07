@@ -9,9 +9,9 @@ import Gallery from "@/components/gallery/Gallery";
 export const metadata = {
   title: "Param Computer Classes | Rajkot",
   description:
-    "Param computer classes is a complete solution of jewellery design and computer courses in Rajkot. like JewelCAD 5.1, Rhinoceros 7, CCC, Tally Prime, Miracle and CorelDRAW.",
+    "Param computer classes is a complete solution of jewellery design, Accounting and computer courses in Rajkot. like JewelCAD 5.1, Rhinoceros, CorelDRAW CNC, CCC, Tally Prime and Miracle.",
   keywords:
-    "param computer classes, computer classes near me, jewellery design courses near me, JewelCAD 5.1, Rhinoceros 7, CCC, tally prime, miracle, coreldraw",
+    "param computer classes, computer classes near me, jewellery design courses near me, JewelCAD 5.1, Rhinoceros, CCC, tally prime, miracle, coreldraw cnc, jewellery design courses in rajkot",
 };
 
 export default async function Home() {

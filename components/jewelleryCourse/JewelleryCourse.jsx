@@ -20,7 +20,7 @@ const JewelleryCourse = () => {
                 <div className={styles.jewelCourseContainer}>
                     <div className={styles.course} data-aos="fade-up">
                         <div className={styles.img}>
-                            <img src="./JewelCAD.jpg" alt="JewelCAD course" />
+                            <img src="./new-jewelcad.jpg" alt="JewelCAD course" />
                         </div>
                         <div className={styles.courseName}>
                             <h2>JewelCAD 5.1 Course</h2>
@@ -32,13 +32,25 @@ const JewelleryCourse = () => {
                     </div>
                     <div className={styles.course} data-aos="fade-up">
                         <div className={styles.img}>
-                            <img src="./RhinoGold.jpg" alt="RhinoGold course" />
+                            <img src="./new-rhinoceros.jpg" alt="rhinoceros course" />
                         </div>
                         <div className={styles.courseName}>
-                            <h2>Rhinoceros 7 Course</h2>
+                            <h2>Rhinoceros Course</h2>
                         </div>
                         <div className={styles.courseLink}>
                             <Link href="/courses/rhinoceros">Read More</Link>
+                            <Link href="/contact">Enroll Now</Link>
+                        </div>
+                    </div>
+                    <div className={styles.course} data-aos="fade-up">
+                        <div className={styles.img}>
+                            <img src="./new-coreldraw.jpg" alt="corelDraw course" />
+                        </div>
+                        <div className={styles.courseName}>
+                            <h2>CorelDRAW CNC Course</h2>
+                        </div>
+                        <div className={styles.courseLink}>
+                            <Link href="/courses/coreldraw">Read More</Link>
                             <Link href="/contact">Enroll Now</Link>
                         </div>
                     </div>

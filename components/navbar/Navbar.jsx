@@ -115,7 +115,7 @@ const Navbar = () => {
                             <ul className={dropdown ? styles.dropdown : styles.dropdownClose}>
                                 <li className={styles.courseTitleLink}>Jewellery Designing <span className={styles.courseTag}>Courses</span></li>
                                 <li onClick={() => closeNavbar("/courses/jewelcad")} className={styles.courseSubTitleLink}><Link href="/courses/jewelcad" className={currentURL == "/courses/jewelcad" ? styles.activeLink : styles.noActiveLink}>JewelCAD 5.1</Link></li>
-                                <li onClick={() => closeNavbar("/courses/rhinoceros")} className={styles.courseSubTitleLink}><Link href="/courses/rhinoceros" className={currentURL == "/courses/rhinoceros" ? styles.activeLink : styles.noActiveLink}>Rhinoceros 7</Link></li>
+                                <li onClick={() => closeNavbar("/courses/rhinoceros")} className={styles.courseSubTitleLink}><Link href="/courses/rhinoceros" className={currentURL == "/courses/rhinoceros" ? styles.activeLink : styles.noActiveLink}>Rhinoceros</Link></li>
                                 <li onClick={() => closeNavbar("/courses/coreldraw")} className={styles.courseSubTitleLink}><Link href="/courses/coreldraw" className={currentURL == "/courses/coreldraw" ? styles.activeLink : styles.noActiveLink}>CorelDRAW CNC</Link></li>
                                 <li className={styles.courseTitleLink}>Accounting <span className={styles.courseTag}>Courses</span></li>
                                 <li onClick={() => closeNavbar("/courses/tally")} className={styles.courseSubTitleLink}><Link href="/courses/tally" className={currentURL == "/courses/tally" ? styles.activeLink : styles.noActiveLink}>Tally Prime</Link></li>
