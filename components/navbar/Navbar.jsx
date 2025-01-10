@@ -24,32 +24,7 @@ const Navbar = () => {
         }
     }, [])
 
-    // const checkIfClickedOutside = (e) => {
-    //     console.log("ENTER", count);
-    //     if (toggleRef.current.contains(e.target) && count >= 0) {
-    //         setToggle(true)
-    //         count++;
-    //         console.log("1 " + count)
-    //     } else if (toggleRef.current.contains(e.target) && toggle === true) {
-    //         setToggle(false)
-    //         count--;
-    //         console.log("2 " + count)
-    //     } else if (!ref.current.contains(e.target)) {
-    //         console.log("tough")
-    //         if (count === 1) {
-    //             setToggle(false)
-    //             count--;
-    //             console.log("3 " + count)
-    //         }
-    //     } else {
-    //         // setToggle(false)
-    //         // count--;
-    //         console.log("4 " + count)
-    //     }
-    // }
-
     const checkIfClickedOutside = (e) => {
-        // console.log("1 " + toggleRef.current.contains(e.target))
         console.log("2 " + toggleRef.current.contains(e.target))
         console.log("3 " + !ref.current.contains(e.target)) // outside
 
@@ -132,7 +107,6 @@ const Navbar = () => {
                 </div>
             </nav>
         </header>
-
     )
 }
 
