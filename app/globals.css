@@ -170,6 +170,40 @@ h6 {
   margin-block: 1rem;
 }
 
+.policyMainContainer {
+  max-width: 1080px;
+  margin: 2.5rem auto;
+  padding: 0 1rem;
+}
+
+.policyContainer {
+  padding: 2rem 0;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.policy {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  text-align: justify;
+}
+
+.policy p,
+.policy h4 {
+  margin-left: 1rem;
+}
+
+.policy {
+  line-height: 1.5;
+}
+
+.actionLink {
+  color: #0D7284;
+  text-decoration: underline;
+}
+
 /* .heading-style {
   position: relative;
 }

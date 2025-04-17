@@ -29,7 +29,10 @@ const Footer = () => {
                         <li><Link href="/about">About</Link></li>
                         <li><Link href="/courses">Courses</Link></li>
                         <li><Link href="/sales-service">Sales & Service</Link></li>
-                        <li><Link href="/contact">Contact</Link></li>
+                        <li><Link href="/contact">Contact Us</Link></li>
+                        <li><Link href="/terms-condition">Terms & Condition</Link></li>
+                        <li><Link href="/privacy-policy">Privacy Policy</Link></li>
+                        <li><Link href="/refund-policy">Refund Policy</Link></li>
                     </ul>
                 </div>
                 <div className={styles.contactInformation}>

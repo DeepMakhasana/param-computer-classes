@@ -101,7 +101,7 @@ const Navbar = () => {
                             </ul>
                         </div>
                         <li onClick={() => closeNavbar("/sales-service")}><Link href="/sales-service" className={currentURL == "/sales-service" ? styles.activeLink : styles.noActiveLink}>Sales & Service</Link></li>
-                        <li onClick={() => closeNavbar("/contact")}><Link href="/contact" className={currentURL == "/contact" ? styles.activeLink : styles.noActiveLink}>Contact</Link></li>
+                        <li onClick={() => closeNavbar("/contact")}><Link href="/contact" className={currentURL == "/contact" ? styles.activeLink : styles.noActiveLink}>Contact Us</Link></li>
                         <li onClick={() => closeNavbar("/contact")}><Link href="/contact" className={styles.enrollNowBtn} >Enroll Now</Link></li>
                     </ul>
                 </div>
